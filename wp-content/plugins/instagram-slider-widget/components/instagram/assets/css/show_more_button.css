@@ -1,0 +1,14 @@
+.show-more-button{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.wis-show-more{
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.wis-show-more:hover {
+    color: #ed1e24;
+}

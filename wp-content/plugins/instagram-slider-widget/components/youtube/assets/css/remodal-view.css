@@ -1,0 +1,55 @@
+.wyt-remodal{
+    padding: 1% 1% !important;
+}
+
+.remodal-wyt-video-info{
+    text-align: left !important;
+    margin-top: 0.5% !important;
+}
+
+
+.remodal-wyt-video-container {
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.remodal-wyt-video-container iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.remodal-wyt-video-title{
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.remodal-wyt-video-specs{
+    color: grey !important;
+    font-size: 1rem !important;
+}
+
+.remodal-wyt-video-stats{
+    text-align: right !important;
+    color: grey !important;
+    font-size: 1rem !important;
+}
+
+.remodal-wyt-video-desc{
+    color: grey !important;
+    font-size: 1rem !important;
+    margin-top: 2% !important;
+}
+
+.remodal-wyt-share{
+    cursor: pointer !important;
+}
+
+.remodal-wyt-share-buttons{
+    background-color: #e3e3e3 !important;
+    border-radius: 5px !important;
+    padding: 5px 10px !important;
+}

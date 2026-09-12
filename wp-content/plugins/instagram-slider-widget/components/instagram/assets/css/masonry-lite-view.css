@@ -1,0 +1,135 @@
+.masonry_lite_container {
+    margin: 0 auto;
+}
+
+.wis-item {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wis-img a img {
+    transition: .25s ease-in-out;
+}
+
+.wis-img:hover a > img {
+    filter: brightness(30%);
+}
+
+.post-date {
+    display: none;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    font-size: 14px;
+}
+
+.post-date p {
+    color: white !important;
+}
+
+.post-date span.fa {
+    color: white;
+}
+
+.wis-img_description {
+    font-size: 12px;
+}
+
+.wis-img:hover .post-date {
+    position: absolute;
+    display: block !important;
+    opacity: 1 !important;
+    color: white;
+    bottom: 10px;
+}
+
+.wis-img_description {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px 10px;
+    font-size: 12px;
+    color: #000e14;
+}
+
+.wis-item:hover .wis-img_description {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.wis-img:hover .wis-img_description {
+    display: none;
+}
+
+
+.wis-img {
+    position: relative;
+}
+
+.wis-img .wis-masonry-neg {
+    opacity: 0;
+    position: relative;
+}
+
+.wis-pic {
+    position: absolute;
+}
+
+.wis-pic_icon {
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.wis-masonry-a {
+    text-decoration: none !important;
+}
+
+
+.masonry_container.effect-4 {
+    perspective: 1300px;
+}
+
+.masonry_container.effect-4 .wis-item {
+    transform-style: preserve-3d;
+}
+
+.masonry_container.effect-4 .wis-item.animate {
+    transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+    animation: fallPerspective .8s ease-in-out forwards;
+}
+
+@keyframes fallPerspective {
+    100% {
+        transform: translateZ(0px) translateY(0px) rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+/*@media (max-width: 860px) {
+    .masonry_lite_container {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 560px) {
+    .masonry_lite_container {
+        column-count: 2;
+    }
+}*/
+
+.wis-img_description {
+    text-align: center;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+    width: auto;
+}

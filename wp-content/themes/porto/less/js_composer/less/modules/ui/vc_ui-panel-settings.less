@@ -1,0 +1,51 @@
+.vc_add-new-category-controls {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+
+  .vc_general.vc_ui-button {
+    flex: 0 1 140px;
+    padding: 10px 0;
+  }
+}
+
+#vc_add-new-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  .wpb_element_label {
+    margin: 15px 0 5px;
+  }
+
+  .wpb_element_label:first-of-type {
+    margin-top: 0;
+  }
+}
+
+#vc_new-category {
+  flex: 1 1 auto;
+}
+
+#vc_new-category-parent {
+  flex: 1 1 auto;
+}
+
+.vc_post-category {
+  max-height: 166px;
+  margin: 13px -2px 6px; // to compensate for the padding
+  padding: 2px; // to make the checkbox outline visible
+  overflow-y: scroll;
+  scrollbar-color: #BECBD1 transparent;
+  scrollbar-width: thin;
+}
+
+.vc-category-item {
+  margin: 0 0 9px;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}

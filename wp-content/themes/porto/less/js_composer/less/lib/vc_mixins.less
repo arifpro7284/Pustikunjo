@@ -1,0 +1,320 @@
+// For clearing floats like a boss h5bp.com/q
+.vc_clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Mixins 4.0
+//Button variants mixin
+.vc_btn_variants(@color, @txt_color) {
+  background-color: @color;
+  color: @txt_color !important; // TODO: WTF? why it is not rendering?
+  .transition(all 0.5s);
+  &:hover {
+    background-color: darken(@color, 6%);
+    color: darken(@txt_color, 3%) !important;
+  }
+  &.vc_btn_outlined,
+  &.vc_btn_square_outlined {
+    color: @color !important;
+    &:hover {
+      border-color: darken(@color, 6%);
+    }
+  }
+  &.vc_btn_3d {
+    .box-shadow(0 5px 0 darken(@color, 11%));
+    margin-bottom: 5px;
+    &.vc_btn_xs {
+      .box-shadow(0 3px 0 darken(@color, 11%));
+      margin-bottom: 3px;
+    }
+    &.vc_btn_sm {
+      .box-shadow(0 4px 0 darken(@color, 11%));
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.vc_heading(@font_size) {
+  font-weight: normal;
+  font-size: @font_size;
+  color: inherit;
+}
+
+.vc_box-heading {
+  .border-top-radius(1px);
+  background: @vc_modal_header_bg_color;
+  color: @vc_modal_header_color;
+  padding: 10px 15px;
+  .vc_icon {
+    width: 15px;
+    height: 18px;
+    display: block;
+  }
+  // TODO: refactor with SMCSS
+  .vc_close {
+    margin-top: 2px;
+    float: right;
+    display: block;
+    &:focus {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+    .vc_icon {
+      background: transparent url(../vc/fe/close_panel.png) center center;
+    }
+  }
+  .vc_minimize {
+    margin-top: 2px;
+    margin-right: 2px;
+    float: right;
+    display: block;
+    .vc_icon {
+      background: transparent url(../vc/fe/modal_minimize.png) center center;
+    }
+  }
+  .vc_transparent {
+    margin-top: 2px;
+    margin-right: 8px;
+    float: right;
+    display: block;
+    .vc_icon {
+      background: transparent url(../vc/fe/eye_ico.png) center center no-repeat;
+    }
+  }
+}
+
+.vc_edit_color_option_variants(@selector, @color, @txt_color) {
+  .@{selector} {
+    background-color: @color !important;
+    color: @txt_color !important;
+  }
+}
+
+.greyGradient() {
+  background: #f1f1f1;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: -moz-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: -o-linear-gradient(bottom, #ececec, #f9f9f9);
+  background-image: linear-gradient(to top, #ececec, #f9f9f9);
+
+  border: 1px solid #dfdfdf !important;
+  -webkit-box-shadow: inset 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 #fff;
+}
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Border Radius
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// COMPONENT MIXINS
+// --------------------------------------------------
+
+// Button backgrounds
+// ------------------
+.buttonBackground(@startColor, @endColor) {
+  background-color: @startColor;
+
+  // in these cases the gradient won't cover the background, so we override
+  &:hover, &:active, &.active, &.disabled, &[disabled] {
+    background-color: @endColor;
+  }
+}
+
+.no_bullet_fix() {
+  background-image: none;
+  list-style: none !important;
+  &:after,
+  &:before {
+    display: none !important;
+  }
+}
+
+//Transition
+.wpb_transition(@param: all, @time: 0.2s, @easing: linear) {
+  transition: @param @time @easing;
+  -moz-transition: @param @time @easing;
+  -webkit-transition: @param @time @easing;
+  -o-transition: @param @time @easing;
+}
+
+.wpb_transform(@param) {
+  -webkit-transform: @param;
+  -moz-transform: @param;
+  -ms-transform: @param;
+  -o-transform: @param;
+  transform: @param;
+}
+
+.wpb_border_radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// Mixins 4.0
+//Button variants mixin
+.vc_btn_variants(@selector, @color, @txt_color) {
+  &@{selector} {
+    .vc_btn_variants(@color, @txt_color);
+  }
+}
+
+.vc_frontend-editor-invisibility-settings {
+  display: block !important;
+  position: relative;
+
+  // Overlay to indicate disabled state - doesn't affect nested elements' opacity
+  > .vc_element::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    pointer-events: none; // Allow interactions to pass through
+  }
+
+  // All controls (including nested) should be above the overlay
+  .vc_controls,
+  .vc_controls .vc_controls-bc {
+    z-index: 10;
+  }
+
+  .vc_controls, &.vc_section + .vc_controls, &.vc_section + .vc_row-full-width + .vc_controls {
+    .vc_btn-content,
+    .vc_copypaste-select + .select2-container .select2-selection {
+      background-color: @grayControls !important;
+      border-color: @grayControls !important;
+      &:hover {
+        background-color: @grayControlsDarker !important;
+        border-color: @grayControlsDarker !important;
+      }
+    }
+    .vc_control-btn-append:before {
+      border-bottom-color: @grayControls !important;
+    }
+    .vc_control-btn-append:hover:before {
+      border-bottom-color: @grayControlsDarker !important;
+    }
+    > .vc_controls-cc {
+      background-color: @grayControls !important;
+    }
+  }
+}
+
+.vc_backend-editor-invisibility-settings {
+  display: block !important;
+  .vc_controls {
+    .vc_btn-content {
+      background-color: @grayControls !important;
+      border-color: @grayControls !important;
+      &:hover {
+        background-color: @grayControlsDarker !important;
+        border-color: @grayControlsDarker !important;
+      }
+    }
+  }
+  > * {
+    .opacity(.5) !important;
+  }
+}
+
+.vc-empty {
+  outline: 1px dotted @vc_border_color;
+  min-height: 50px;
+  position: relative;
+  cursor: pointer;
+  .box-sizing(border-box);
+
+  &:after {
+    font-family: 'vcpb-plugin-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: @vc-c-icon-add_element;
+    color: #848C92;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 0;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+  }
+}
+
+.vc_bg_color_variants(@color) {
+  .vc_bg-@{color} {
+    background-color: @@color;
+  }
+}
+
+.wpb_param_label_text(@size: @wpb_font-size-sm) {
+  color: @textGray;
+  font-family: @wpb_font-family-primary;
+  font-size: @size;
+  font-weight: @wpb_font-weight;
+  line-height: 1.5;
+}
+
+.wpb-field-shape {
+  border-radius: 3px;
+  border: 1px solid @grayLight;
+}
+
+.wpb-form-input-styles {
+  .wpb_param_label_text();
+  .wpb-field-shape();
+  background-color: #fff;
+  padding: 10px;
+  margin: 0;
+  box-shadow: unset;
+  min-height: unset;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: @vc_main_color_hover;
+  }
+
+  &::placeholder {
+    color: @grayPlaceholder;
+  }
+}
+
+.wpb_param_focus_outline() {
+  outline: 1px solid @vc_main_color;
+  outline-offset: 1px;
+}
+
+.wpb_transition(@property: all, @duration: @wpb_transition_duration) {
+  transition: @property @duration @wpb_transition_easing;
+}
+
+// End Mixins

@@ -1,0 +1,57 @@
+@vc-dnd-frame-border-color: rgba(0, 95, 177, .5);
+@vc-dnd-frame-border-color-transition: rgba(0, 95, 177, .75);
+@vc-dnd-frame-border-width: 2px;
+@vc-dnd-scale-transform: scale(1, 4);
+@vc-dnd-scale-transform-vertical: scale(4, 1);
+@vc-dnd-scale-transition: transform .25s ease-in-out .01s;
+
+.vc-dnd-dragging--start {
+  cursor: move !important;
+  * {
+    cursor: move !important; // to override cursor on interactive elements like buttons, links, etc.
+  }
+}
+
+#vc-dnd-smart-line {
+  pointer-events: none;
+  position: absolute;
+  z-index: 10999;
+  background-color: @vc-dnd-frame-border-color;
+  opacity: 0;
+  &.vc-is-shown {
+    transition: opacity .25s;
+    opacity: 1;
+  }
+  &.vc-smart-line-transition {
+    transform: @vc-dnd-scale-transform;
+    background-color: @vc-dnd-frame-border-color-transition;
+    transition: opacity .25s, background-color .25s, @vc-dnd-scale-transition;
+
+    &.vc-smart-line-vertical {
+      transform: @vc-dnd-scale-transform-vertical;
+    }
+  }
+  &.vc-dnd-smart-line-frame {
+    transform: scale(1);
+    border: @vc-dnd-frame-border-width solid @vc-dnd-frame-border-color-transition;
+    background-color: transparent;
+    transition: opacity .25s;
+
+    &.vc-smart-line-transition {
+      box-shadow: 0 0 0 @vc-dnd-frame-border-width @vc-dnd-frame-border-color-transition,
+      inset 0 0 0 @vc-dnd-frame-border-width @vc-dnd-frame-border-color-transition;
+      transition: opacity .25s, box-shadow .15s ease .1s;
+    }
+  }
+}
+
+.vc-ui-smart-line-container {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 999;
+}

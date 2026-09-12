@@ -1,0 +1,203 @@
+@import "bootstrap-components.less";
+// must be outputted
+@import "editor.less";
+// override lib/editor.less
+.metabox-composer-content .vc_message {
+  position: relative;
+  top: 0;
+}
+
+// Here comes panels
+@vc_modal_top_margin: 34px;
+
+// Elements icons
+@import "../lib/elements_icons.less";
+// Add element box
+@import "../popups/modal_add_element.less";
+// Teasers
+@import "../popups/modal_teasers.less";
+
+@import "../modules/vc_navbar.less";
+@import "../modules/vc_fullscreen.less";
+// Message box shown when post content is empty
+@import "../modules/vc_welcome.less";
+// Backend switcher
+@import "../modules/vc_switcher.less";
+// Edit form for shortcode
+@import "../popups/panel_edit_form.less";
+// Template library
+@import "../popups/panel_template_library";
+// Templates editor
+@import "../modules/ui/vc_ui-panel-templates.less";
+//Presets
+@import "../modules/ui/vc_ui-panel-preset.less";
+// Teaser box for posts used by Post grid and post carousel
+@import "../modules/vc_teaser_box.less";
+
+@import "../modules/vc_info_tooltip.less";
+// drag and drop helper and smart line
+@import "../modules/vc_helper.less";
+@import "../modules/vc_smart_line.less";
+
+// Backend controls
+@import "controls.less";
+@import "backend_controls.less";
+@import "backend_grid_element_pointers.less";
+@import "vc_pointer.less";
+@import "panel_preview.less";
+
+@import "../params/vc_grid_item/vc_gitem_editor.less";
+
+.vc_admin_label {
+  font-size: 11px;
+  font-style: italic;
+  color: #999999;
+  margin-right: 5px;
+  line-height: 1;
+  word-wrap: break-word;
+
+  label {
+    vertical-align: inherit;
+  }
+
+  &.hidden-label {
+    display: none;
+  }
+}
+
+// Vendors
+@import "../vendor/contact_form_7.less";
+@import "../vendor/gravity_form.less";
+@import "../vendor/layerslider.less";
+@import "../vendor/rev_slider.less";
+@import "../vendor/jwplayer.less";
+
+@import "vc_font.less";
+
+#wpb_wpbakery {
+  display: none;
+
+  > .inside {
+    margin: 0;
+    padding: 0;
+  }
+
+  .vc_navbar {
+    border-bottom: 1px solid @vc_navbar_border_color;
+  }
+}
+
+.vc_hidden-xs {
+  @media (max-width: @screen-xs-max) {
+    .vc_backend-editor-invisibility-settings;
+  }
+
+  .vc_hidden-xs {
+    > * {
+      .opacity(1) !important;
+    }
+  }
+}
+
+.vc_hidden-sm {
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .vc_backend-editor-invisibility-settings;
+  }
+
+  .vc_hidden-sm {
+    > * {
+      .opacity(1) !important;
+    }
+  }
+}
+
+.vc_hidden-md {
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .vc_backend-editor-invisibility-settings;
+  }
+
+  .vc_hidden-md {
+    > * {
+      .opacity(1) !important;
+    }
+  }
+}
+
+.vc_hidden-lg {
+  @media (min-width: @screen-lg-min) and (max-width: @screen-lg-max) {
+    .vc_backend-editor-invisibility-settings;
+  }
+
+  .vc_hidden-lg {
+    > * {
+      .opacity(1) !important;
+    }
+  }
+}
+
+.vc_hidden-xl {
+  @media (min-width: @screen-xl-min) {
+    .vc_backend-editor-invisibility-settings;
+  }
+
+  .vc_hidden-xl {
+    > * {
+      .opacity(1) !important;
+    }
+  }
+}
+
+#wpbakery_content {
+  margin: 18px 18px 0 18px;
+  line-height: 1.2;
+}
+
+// WP fixes for files.
+#poststuff {
+  h3.vc_modal-title {
+    .vc_heading(16px);
+  }
+
+  .vc_welcome {
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      line-height: 26px;
+      cursor: default;
+    }
+
+    &.vc_not-empty {
+      margin-top: 0;
+
+      .vc_buttons {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@import "backend_draganddrop.less";
+
+.vc_panel-heading {
+  .vc_transparent {
+    display: none;
+  }
+}
+
+.vc_loading-shortcodes {
+  #vc_no-content-helper {
+    display: none;
+  }
+}
+
+.vc_button-settings-less {
+  &:active {
+    vertical-align: baseline;
+  }
+}
+
+// fix mobile overlay
+body.mobile.modal-open #wpwrap {
+  position: relative !important;
+}

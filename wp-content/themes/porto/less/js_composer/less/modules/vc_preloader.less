@@ -1,0 +1,24 @@
+@wpb-preloader-size: 36px;
+
+#vc_preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50021; // gutenberg modal
+  width: 100%;
+  height: 100%;
+  background: #FFF url('../vc/loaders/wizzy.svg') center center no-repeat;
+  background-size: @wpb-preloader-size;
+  .opacity(0.95);
+}
+#vc_overlay_spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50021; // gutenberg modal
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  background-size: @wpb-preloader-size;
+  .opacity(0.95);
+}

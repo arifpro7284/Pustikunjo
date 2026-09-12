@@ -1,0 +1,75 @@
+/* Porto AI — Website Title Generator */
+
+/* Layout of the title column + field card lives in demo-install-flow.css.
+   Only the message states are theme-specific to the title generator. */
+.porto-ai-title-msg { font-size: 12px; }
+.porto-ai-title-msg.is-ok { color: #1a9b54; }
+.porto-ai-title-msg.is-error { color: #d33; }
+
+/* Popup */
+.porto-ai-title-popup {
+	width: 420px;
+	max-width: 94vw;
+	background: #fff;
+	border-radius: 14px;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+.porto-ai-title-popup__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 14px 18px;
+	background: linear-gradient( 135deg, #1773ff, #6f4cff );
+	color: #fff;
+}
+.porto-ai-title-popup__title { font-weight: 600; font-size: 15px; }
+.porto-ai-title-popup__close { background: transparent; border: 0; color: #fff; font-size: 22px; line-height: 1; cursor: pointer; opacity: .85; }
+.porto-ai-title-popup__close:hover { opacity: 1; }
+
+.porto-ai-title-popup__form { padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+.porto-ai-title-popup__form label { display: flex; flex-direction: column; gap: 5px; font-size: 12px; font-weight: 500; color: #4a5364; }
+.porto-ai-title-popup__form input,
+.porto-ai-title-popup__form select {
+	padding: 9px 12px;
+	border: 1px solid #d7deea;
+	border-radius: 8px;
+	font-size: 13px;
+	font-family: inherit;
+}
+.porto-ai-title-popup__form input:focus,
+.porto-ai-title-popup__form select:focus { outline: none; border-color: #1773ff; box-shadow: 0 0 0 3px rgba( 23, 115, 255, .12 ); }
+.porto-ai-title-run { margin-top: 4px; }
+
+.porto-ai-title-popup__results { padding: 0 18px 18px; max-height: 320px; overflow-y: auto; }
+.porto-ai-title-list { display: flex; flex-direction: column; gap: 6px; }
+.porto-ai-title-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 9px 12px;
+	border: 1px solid #e7ebf3;
+	border-radius: 9px;
+	background: #f9fbfe;
+}
+.porto-ai-title-item__name { font-size: 14px; font-weight: 600; color: #1b1f27; }
+.porto-ai-error { color: #d33; font-size: 13px; }
+.porto-ai-error-action {
+	display: inline-block;
+	margin-top: 4px;
+	font-weight: 600;
+	color: #d33;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+.porto-ai-error-action:hover,
+.porto-ai-error-action:focus { color: #a01f1f; }
+
+/* Spinner */
+.porto-ai-spinner {
+	width: 26px; height: 26px; margin: 16px auto;
+	border: 3px solid #dbe4f3; border-top-color: #1773ff; border-radius: 50%;
+	animation: porto-ai-spin .8s linear infinite;
+}
+@keyframes porto-ai-spin { to { transform: rotate( 360deg ); } }

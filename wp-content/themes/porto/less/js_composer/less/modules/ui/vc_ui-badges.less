@@ -1,0 +1,28 @@
+.wpb-seo-wrapper {
+  position: relative;
+  display: flex;
+}
+
+[class*=vc_ui-badge--] .wpb-seo-wrapper::after {
+  content: '';
+  display: block;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  right: -2px;
+}
+
+.vc_ui-badge {
+  &--success .wpb-seo-wrapper:after {
+    background-color: #10C248;
+  }
+  &--warnings .wpb-seo-wrapper:after {
+    background-color: #F4AF1D;
+  }
+  &--problems .wpb-seo-wrapper:after {
+    background-color: #FA7A73;
+  }
+}
+

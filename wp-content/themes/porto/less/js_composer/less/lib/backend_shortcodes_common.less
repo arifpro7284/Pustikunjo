@@ -1,0 +1,32 @@
+// This file contains styles that are common for certain elements in the Backend editor
+
+// Images
+// Hides the Add images link for image type elements
+
+.image-exists {
+  display: none !important;
+}
+
+// Default Content Element Style
+.wpb_content_element {
+  position: relative;
+
+  .wpb_element_title {
+    margin: 0 !important;
+  }
+  > .wpb_element_wrapper {
+    padding: 10px;
+    border: 1px solid transparent;
+    .border-radius(2px);
+    background-color: #ffffff;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    min-height: 33px;
+    > .wpb_element_title {
+      .vc_element-icon {
+        float: left;
+        margin-right: @vc_backend_editor_margin_right;
+      }
+    }
+  }
+}

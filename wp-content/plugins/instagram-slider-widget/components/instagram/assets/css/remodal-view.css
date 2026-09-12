@@ -1,0 +1,228 @@
+.remodal > div {
+    float: left !important;
+}
+
+.remodal {
+    font-size: 13px !important;
+
+}
+.remodal-media{
+    object-fit: contain;
+    vertical-align: middle;
+
+}
+.remodal-media-image{
+    object-fit: contain;
+    vertical-align: middle;
+    max-height: 90vh;
+}
+.wis-video-block{
+    cursor: pointer !important;
+}
+
+.wis-remodal-info {
+    text-align: left !important;
+}
+
+.wis-remodal-round {
+    border-radius: 30px !important;
+}
+
+.wis-remodal-text {
+    margin-top: 20px !important;
+}
+
+.wis-remodal-stats {
+    margin-top: 20px !important;
+}
+
+.wis-remodal-username {
+    margin-left: 2% !important;
+}
+
+.wis-remodal-info {
+    margin-top: 5% !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.wis-remodal-img {
+    text-align: center !important;
+}
+
+.wis-href {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.wis-href:hover {
+    color: #ed1e24 !important;
+}
+
+.wis-play-icon-div {
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+.wis-play-icon {
+    background-color: rgba(0,0,0,0.2);
+    width: 100px;
+    height: 100px;
+    padding: 25px 0px 0px 10px;
+    border-radius: 50px;
+}
+
+.date-post {
+    font-size: 10px !important;
+    color: rgba(0,0,0,0.72);
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.wis-video{
+
+}
+
+
+.remodal-view-arrow-prev, .remodal-view-arrow-next{
+    /*display: none !important;*/
+    position: absolute;
+    top: 50%;
+
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    color: black;
+    z-index: 1;
+
+    text-align: center;
+    padding-top: 14px;
+}
+
+.remodal-view-arrow-prev{
+    left: 10px;
+}
+
+.remodal-view-arrow-next{
+    right: 10px;
+}
+
+.wis-remodal-slick-container:hover .remodal-view-arrow-next, .wis-remodal-slick-container:hover .remodal-view-arrow-prev{
+    display: block;
+}
+
+.wis-remodal-stats{
+    display: inline-block;
+}
+
+.wis-inline{
+    display: inline-block;
+}
+
+.wis-remodal-share-buttons{
+    margin-top: -38px;
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.9);
+}
+
+.shr-btn{
+    color: black;
+    font-size: 20px !important;
+    margin-left: 4px ;
+}
+
+.shr-btn-fcbk {
+    margin-left: 0 !important;
+}
+
+.wis-remodal-share {
+    cursor: pointer;
+}
+
+.shr-btn:hover{
+    color: #ed1e24 !important;
+}
+
+.remodal-container
+{
+    width: 100%;
+    display: flex;
+}
+.remodal-md-6
+{
+    position: relative;
+    min-height: 1px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+}
+
+
+
+.white
+{
+    background-color: black;
+    color: white;
+}
+.red
+{
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .remodal-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .remodal-md-3{
+        float: left;
+        width: 30%;
+    }
+
+    .remodal-md-9{
+        float: left;
+        width: 70%;
+    }
+
+    .wis-play-icon-div{
+        left: 38%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+@media (max-width: 991px) {
+    .remodal-media{
+        /*transform: translate(-25%, 0%);*/
+
+    }
+    .remodal-container
+    {
+        width: 100%;
+        display: block;
+    }
+    .wis-play-icon-div{
+        left: 50%;
+        top: 38%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        pointer-events: none;
+    }
+}

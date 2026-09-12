@@ -1,0 +1,125 @@
+/* Porto Setup Wizard — "remove before install" confirm popup.
+   Mirrors the .porto-install-demo popup box (white card, padding, centered). */
+
+.porto-confirm-install {
+	background: #fff;
+	padding: 1.5rem;
+	max-width: 25rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+.porto-confirm-install h4 {
+	margin: 0 0 .5rem;
+}
+
+.porto-confirm-install p {
+	margin: 0 0 1.25rem;
+	color: #777;
+	font-size: .8125rem;
+}
+
+.porto-confirm-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+}
+
+.porto-confirm-actions .btn {
+	flex: 1 1 auto;
+	white-space: nowrap;
+	margin: 0;
+}
+
+/* ------------------------------------------------------------------ *
+ * Logo + Website Title — two columns in a row.
+ * ------------------------------------------------------------------ */
+
+.porto-logo-title-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	margin: .5rem 0 1.5rem;
+}
+
+.porto-logo-col,
+.porto-title-col {
+	flex: 1 1 320px;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.porto-logo-title-row h4 {
+	margin: 0 0 .625rem;
+}
+
+/* Shared field card — both columns match in height and style. */
+.porto-field-card {
+	flex: 1;
+	display: flex;
+	gap: .75rem;
+	padding: 1.25rem;
+	background: #fff;
+	border: 1px solid #e7e7e7;
+	border-radius: 8px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.porto-field-card .btn {
+	margin: 0;
+}
+
+.porto-field-input {
+	width: 100%;
+	padding: .5rem .75rem;
+	border: 1px solid #d7deea;
+	border-radius: 6px;
+	font-size: .8125rem;
+	color: #32373c;
+	background: #fff;
+}
+
+.porto-field-input:focus {
+	outline: none;
+	border-color: #08c;
+	box-shadow: 0 0 0 3px rgba( 0, 136, 204, .12 );
+}
+
+.porto-field-hint {
+	margin: auto 0 0;
+	font-size: .75rem;
+	line-height: 1.5;
+	width: 100%;
+}
+
+.porto-field-hint i {
+	color: #08c;
+	margin-right: .25rem;
+}
+
+/* Logo column specifics. */
+.porto-logo-preview {
+	display: flex;
+	align-items: center;
+	min-height: 48px;
+}
+
+.porto-logo-preview img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Title column action buttons. */
+.porto-ai-title-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: .5rem;
+}
+
+.porto-ai-title-generate span {
+	font-size: .9375rem;
+}

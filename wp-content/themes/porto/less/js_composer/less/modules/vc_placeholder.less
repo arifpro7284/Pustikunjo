@@ -1,0 +1,96 @@
+@import "vc_smart_line.less";
+
+.wpb-dnd-placeholder {
+  height: @vc-dnd-frame-border-width;
+  background: @vc-dnd-frame-border-color;
+  transform: scale(1, 1);
+  transition: @vc-dnd-scale-transition, background-color .25s;
+  animation: vc-param-placeholder-scale .15s ease .1s forwards;
+}
+
+.vc_placeholder {
+  width: 100% !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  .wpb-dnd-placeholder();
+
+  &-row {
+    padding: 0;
+    margin: 0 0 35px 0;
+    background: transparent url(@vc_placeholder_pattern);
+    height: 50px;
+  }
+  &-column {
+    background: transparent url(@vc_placeholder_pattern);
+    float: left;
+  }
+  &-tab {
+    background: transparent url(@vc_placeholder_pattern);
+  }
+}
+
+.vc_param_group-list {
+  .vc_placeholder {
+    .wpb-dnd-placeholder();
+  }
+}
+
+// TTA Placeholder
+.vc_tta-tabs-list {
+  .vc_placeholder-tta-tab,
+  .vc_placeholder-tab {
+    position: relative;
+    z-index: 99999;
+    .wpb-dnd-placeholder();
+  }
+}
+
+// Vertical TTA placeholder
+.vc_tta-tabs-position-top,
+.vc_tta-tabs-position-bottom {
+  .vc_tta-tabs-list .vc_placeholder-tta-tab,
+  .vc_tta-tabs-list .vc_placeholder-tab {
+    height: 100%;
+    width: @vc-dnd-frame-border-width;
+    position: absolute;
+    animation: vc-param-placeholder-scale-vertical .15s ease .1s forwards;
+  }
+}
+
+.vc_tta-panels {
+  .vc_placeholder-row {
+    .wpb-dnd-placeholder();
+  }
+}
+
+// Media gallery placeholder
+.widgets-placeholder-gallery {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 0px solid @vc-dnd-frame-border-color-transition;
+  border-radius: 3px;
+  margin: 0;
+  padding: 0;
+  animation: vc-param-placeholder-gallery .3s ease .05s forwards;
+}
+
+@keyframes vc-param-placeholder-scale {
+  to {
+    transform: @vc-dnd-scale-transform;
+    background-color: @vc-dnd-frame-border-color-transition;
+  }
+}
+
+@keyframes vc-param-placeholder-scale-vertical {
+  to {
+    transform: @vc-dnd-scale-transform-vertical;
+    background-color: @vc-dnd-frame-border-color-transition;
+  }
+}
+
+@keyframes vc-param-placeholder-gallery {
+  to {
+    border-width: 4px;
+  }
+}

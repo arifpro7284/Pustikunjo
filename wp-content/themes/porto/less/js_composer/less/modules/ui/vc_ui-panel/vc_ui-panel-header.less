@@ -1,0 +1,124 @@
+@import "../vc_ui-button.less";
+@import "../vc_ui-icon-pixel.less";
+@import "../vc_ui-dropdown.less";
+@import "../vc_ui-tabs-line.less";
+
+@vcui-panel-header-font-size: 14px;
+@vcui-panel-header-padding: 15px;
+@vcui-panel-header-gap: 16px;
+@vcui-panel-header-background: @vc_main_color;
+@vcui-panel-header-color: #fff;
+@vcui-panel-header-heading-font-size: 14px;
+@vcui-panel-header-search-width: 200px;
+@vcui-panel-header-search-width-focus: 110%;
+@vcui-panel-header-search-color: #333;
+@vcui-panel-header-search-placeholder-color: #aaa;
+@vcui-panel-header-transition-duration: .2s;
+
+.vc_ui-panel-header-container {
+  padding: @vcui-panel-header-padding;
+  background: @vcui-panel-header-background;
+  margin: 0;
+  font-size: @vcui-panel-header-font-size;
+  &.vc_ui-panel-header-o-stacked-bottom {
+    padding-bottom: 0;
+  }
+}
+
+.vc_ui-panel-header {
+  color: @vcui-panel-header-color;
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .vc_ui-panel-header-controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    float: right;
+    margin: -2px 0 0 12px;
+    .vc_ui-dropdown {
+      display: inline-block;
+    }
+    .vc_ui-dropdown-content {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  .vc_ui-panel-header-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .vc_ui-panel-header-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    margin: 0 1em 0 0;
+    color: inherit;
+    font-size: @vcui-panel-header-heading-font-size;
+    font-family: inherit;
+    font-weight: @wpb_font-weight;
+    line-height: 18px;
+
+    .vc-composer-icon {
+      cursor: move;
+      font-size: 11.7px; // so it matches the design
+    }
+  }
+
+  .vc_ui-panel-header-content {
+    clear: both;
+  }
+
+  .vc_ui-control-button {
+    margin: 0;
+    padding: 0;
+    // buttons with icons
+    .vc-composer-icon {
+      font-size: 26px;
+    }
+
+    .vc-c-cog-filled,
+    .vc-c-icon-panel-minimize {
+      font-size: 18px;
+    }
+
+    .vc-c-icon-panel-minimize {
+      position: relative;
+      top: -3px;
+    }
+
+    .vc-c-icon-close {
+      font-size: 13.5px;
+      display: inline-block;
+    }
+  }
+}
+
+.vc_ui-add-element-header-container .vc_ui-panel-header .vc_ui-panel-header-controls {
+  margin: 0 0 16px 12px;
+}
+
+.vc_ui-panel-header-actions .wpb-search-input {
+  width: @vcui-panel-header-search-width;
+
+  input[type="text"].wpb-form-input {
+    width: 100%;
+    padding-right: 32px;
+    border-color: @vc_main_color;
+
+    &:focus {
+      border-color: @vc_main_color_hover;
+    }
+  }
+}
+

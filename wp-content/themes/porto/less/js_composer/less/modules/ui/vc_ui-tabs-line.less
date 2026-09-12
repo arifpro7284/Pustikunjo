@@ -1,0 +1,196 @@
+@vcui-tabs-line-border: 1px;
+@vcui-tabs-line-border-radius: 3px;
+@vcui-tabs-line-font-size: 12px;
+@vcui-tabs-line-font-weight: @wpb_font-weight;
+@vcui-tabs-line-padding-horizontal: 16px;
+@vcui-tabs-line-padding-vertical: 13px;
+@vcui-tabs-line-active-background: #fff;
+@vcui-tabs-line-hover-background: @vc_main_color_hover;
+@vcui-tabs-line-hover-text: #fff;
+@vcui-tabs-line-active-color: #5e5e5e;
+@vcui-tabs-line-transition-duration: .2s;
+@vcui-tabs-line-transition-properties: color, background, border;
+
+@vcui-tabs-line-dropdown-z-index: 1010;
+@vcui-tabs-line-dropdown-max-width: 300px;
+@vcui-tabs-line-dropdown-trigger-color: #5e5e5e;
+@vcui-tabs-line-dropdown-trigger-padding-vertical: 10px;
+@vcui-tabs-line-dropdown-trigger-padding-horizontal: 10px;
+@vcui-tabs-line-dropdown-font-size: 12px;
+@vcui-tabs-line-dropdown-o-bounded-rows-count: 7;
+
+.vc_general.vc_ui-tabs-line {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  > li {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  > .vc_ui-tabs-line-dropdown-toggle {
+    float: right;
+  }
+  // Trigger when it appears as a tab in a panel
+  .vc_ui-tabs-line-trigger {
+    box-sizing: border-box;
+    display: block;
+    text-transform: none;
+    border: @vcui-tabs-line-border solid transparent;
+    font-size: @vcui-tabs-line-font-size;
+    font-weight: @vcui-tabs-line-font-weight;
+    line-height: 1;
+    background: transparent;
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    padding: @vcui-tabs-line-padding-vertical @vcui-tabs-line-padding-horizontal;
+    margin: 0;
+    outline: none;
+    transition-property: @vcui-tabs-line-transition-properties;
+    transition-duration: @vcui-tabs-line-transition-duration;
+    transition-timing-function: ease-in-out;
+    border-radius: @vcui-tabs-line-border-radius @vcui-tabs-line-border-radius 0 0;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    text-align: left;
+    &:hover,
+    &:focus {
+      border: @vcui-tabs-line-border solid transparent;
+      background-color: @vcui-tabs-line-hover-background;
+      color: @vcui-tabs-line-hover-text;
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
+  > .vc_active {
+    > .vc_ui-tabs-line-trigger {
+      background-color: @vcui-tabs-line-active-background;
+      color: @vcui-tabs-line-active-color;
+      cursor: default;
+    }
+  }
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.vc_ui-tabs-line .vc_ui-tabs-line-dropdown-toggle {
+  position: absolute;
+  float: right;
+  visibility: hidden;
+  &.vc_visible {
+    visibility: visible;
+    position: relative;
+  }
+  // Trigger as a More button
+  > .vc_ui-tabs-line-trigger {
+    &::after {
+      content: '. . .';
+      font-weight: @wpb_font-weight;
+      display: inline;
+      position: relative;
+      top: -3px; // to center the dots vertically with the text in the tabs
+    }
+  }
+  &.vc_active {
+    > .vc_ui-tabs-line-trigger {
+      background-color: @vcui-tabs-line-hover-background;
+      color: inherit;
+      cursor: pointer;
+    }
+  }
+}
+
+.vc_ui-tabs-line .vc_ui-tabs-line-dropdown {
+  position: absolute;
+  z-index: @vcui-tabs-line-dropdown-z-index;
+  top: 100% !important; // to override select2 styles
+  right: 0;
+  left: initial;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out, transform .2s ease-in-out;
+  pointer-events: none;
+  margin: 0;
+  list-style: none;
+  width: auto;
+  max-width: @vcui-tabs-line-dropdown-max-width;
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  &.vc_active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  // Trigger when it appears as an option in a dropdown menu
+  .vc_ui-tabs-line-trigger {
+    width: 100%;
+    padding: 1px 25px;
+    margin: 0 4px 0 0;
+    color: @vcui-tabs-line-hover-text;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    min-height: 26px;
+    position: relative;
+    background-color: transparent;
+    border-radius: @vcui-tabs-line-border-radius;
+    transition: background-color 0.15s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: @wpb_dropdown-highlight;
+      color: @vcui-tabs-line-hover-text;
+    }
+  }
+  .vc_active {
+    // Selected tab in the dropdown
+    .vc_ui-tabs-line-trigger {
+      background-color: @wpb_dropdown-highlight;
+      color: @vcui-tabs-line-hover-text;
+      cursor: default;
+
+      &::before {
+        content: "\e5ca";
+        font-family: 'vcpb-plugin-icons', sans-serif;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 10px;
+        color: @vcui-tabs-line-hover-text;
+        position: absolute;
+        left: 6px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 13px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// initializing
+.vc_ui-tabs-line {
+  opacity: 1;
+  transition: opacity @vcui-tabs-line-transition-duration ease-in-out;
+  &.vc_initializing {
+    transition: opacity 0ms;
+    opacity: 0;
+    > li:not(:first-child):not(.vc_ui-tabs-line-dropdown-toggle) {
+      position: absolute;
+      visibility: hidden;
+    }
+  }
+}

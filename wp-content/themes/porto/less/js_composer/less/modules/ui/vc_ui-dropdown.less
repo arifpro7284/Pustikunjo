@@ -1,0 +1,53 @@
+/**
+ * Dropdown component styles.
+ * Dropdown component is used in the Edit Form header.
+ */
+
+.vc_ui-dropdown {
+  position: relative;
+
+  &.vc_active,
+  &.vc_animating {
+    .vc_ui-dropdown-content {
+      display: block;
+
+      .wpb-form-select-dropdown {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        li {
+          padding: 1px 7px;
+        }
+      }
+    }
+  }
+  .vc_ui-dropdown-content {
+    box-sizing: content-box;
+    display: none;
+    position: absolute;
+    z-index: 120;
+    top: 0;
+    left: 0;
+  }
+}
+
+.vc_ui-settings-button.vc_ui-control-button {
+  .vc-c-icon-check {
+    display: none;
+  }
+
+  .vc-composer-icon.vc-c-menu {
+    font-size: 13.7px;
+  }
+
+  &.vc_done {
+    .vc-c-icon-check {
+      display: inline-block;
+    }
+
+    .vc-c-icon-cog {
+      display: none;
+    }
+  }
+}

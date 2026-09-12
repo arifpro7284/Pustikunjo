@@ -1,0 +1,36 @@
+[data-vc-ui-element="panel-row-layout"] {
+  &.vc_ui-panel.vc_ui-panel-window {
+    width: 411px;
+  }
+  z-index: 100001;
+  top: 90px;
+  left: 50%;
+  input.vc_row_layout[type="text"] {
+    width: 100%;
+  }
+  .vc_ui-panel-window-inner > .vc_ui-panel-content-container {
+    overflow: hidden;
+
+    .vc_column:last-of-type {
+      padding-bottom: 15px;
+    }
+  }
+  .vc_row-layout-presets {
+    .wpb_button_group-buttons {
+      flex-wrap: wrap;
+    }
+    .wpb_button_group-button-wrapper {
+      min-width: 0;
+    }
+    .wpb_button_group-button {
+      width: auto;
+      height: auto;
+      padding: 9px;
+    }
+    .wpb_button_group-icon {
+      font-size: 13px;
+      overflow: visible;
+      width: auto;
+    }
+  }
+}

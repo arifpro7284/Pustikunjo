@@ -1,0 +1,2702 @@
+{
+    "_comment": "Porto AI demo OVERLAY. Only AI-enriched fields live here; derived fields (builder, categories, features, woocommerce, thumbnail, preview) come from porto_demo_types() at runtime. Regenerate with tools/generate-demos-json.php. keywords are SEEDS; style/colors/description are filled by the AI enrichment pass.",
+    "_generated_by": "tools/generate-demos-json.php",
+    "_count": 104,
+    "demos": {
+        "classic-original": {
+            "name": "Main Demo",
+            "keywords": [
+                "multipurpose",
+                "classic store",
+                "portfolio",
+                "strategy",
+                "planning",
+                "web design",
+                "corporate",
+                "responsive",
+                "template",
+                "newsletter",
+                "features showcase",
+                "woocommerce"
+            ],
+            "style": [
+                "classic",
+                "corporate",
+                "clean",
+                "modern"
+            ],
+            "colors": [],
+            "description": "Classic multipurpose demo with corporate layout, blue accents, and strategy/planning/build service sections.",
+            "_enriched": true
+        },
+        "accounting2": {
+            "name": "Accounting 2",
+            "keywords": [
+                "accounting",
+                "tax advisory",
+                "audit assurance",
+                "financial planning",
+                "payroll management",
+                "forensic accounting",
+                "business valuation",
+                "cpa",
+                "regulatory compliance",
+                "bookkeeping",
+                "tax preparation",
+                "financial advisory"
+            ],
+            "style": [
+                "professional",
+                "corporate",
+                "minimal",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Full-service accounting firm offering tax advisory, audit assurance, payroll, and forensic accounting solutions.",
+            "_enriched": true
+        },
+        "shop56": {
+            "name": "Shop 56",
+            "keywords": [
+                "mobile accessories",
+                "phone cases",
+                "chargers",
+                "cables",
+                "headphones",
+                "power banks",
+                "smartwatch",
+                "screen protectors",
+                "magsafe",
+                "consumer electronics",
+                "iphone",
+                "samsung"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "bold"
+            ],
+            "colors": [],
+            "description": "Mobile accessories e-commerce store selling cases, chargers, headphones, and electronics for iPhone and Samsung.",
+            "_enriched": true
+        },
+        "accounting": {
+            "name": "Accounting",
+            "keywords": [
+                "accounting",
+                "tax planning",
+                "bookkeeping",
+                "business advisory",
+                "payroll management",
+                "global accounting",
+                "financial compliance",
+                "tax consulting",
+                "certified accountants",
+                "financial strategy",
+                "admin services",
+                "financial guidance"
+            ],
+            "style": [
+                "professional",
+                "corporate",
+                "clean",
+                "modern"
+            ],
+            "colors": [],
+            "description": "Comprehensive accounting firm delivering tax planning, payroll, global accounting, and business advisory services.",
+            "_enriched": true
+        },
+        "marketing": {
+            "name": "Marketing",
+            "keywords": [
+                "digital marketing",
+                "brand strategy",
+                "seo",
+                "content marketing",
+                "social media marketing",
+                "ppc advertising",
+                "influencer marketing",
+                "web design",
+                "ux ui",
+                "market research",
+                "growth agency",
+                "branding"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Digital marketing and creative agency offering brand strategy, SEO, content marketing, and UX/UI design services.",
+            "_enriched": true
+        },
+        "creative-agency2": {
+            "name": "Creative Agency 2",
+            "keywords": [
+                "creative agency",
+                "brand development",
+                "graphic design",
+                "web development",
+                "ux design",
+                "app development",
+                "logo design",
+                "content marketing",
+                "digital transformation",
+                "creative advertising",
+                "branding",
+                "corporate"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "professional",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Creative agency providing brand development, graphic design, web development, and app development services.",
+            "_enriched": true
+        },
+        "seo3": {
+            "name": "SEO 3",
+            "keywords": [
+                "seo",
+                "digital marketing",
+                "search engine optimization",
+                "link building",
+                "social media strategy",
+                "email marketing",
+                "online visibility",
+                "data analysis",
+                "customer acquisition",
+                "marketing strategy",
+                "ppc",
+                "web services"
+            ],
+            "style": [
+                "corporate",
+                "clean",
+                "modern",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Full-service SEO and digital marketing agency offering search optimization, social media, and email marketing plans.",
+            "_enriched": true
+        },
+        "business-consulting5": {
+            "name": "Business Consulting 5",
+            "keywords": [
+                "business consulting",
+                "digital marketing",
+                "content marketing",
+                "competitor analysis",
+                "seo",
+                "lead generation",
+                "campaign optimization",
+                "conversion optimization",
+                "analytics",
+                "brand growth",
+                "google ranking",
+                "small business"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Business and marketing consultancy delivering SEO, content strategy, competitor analysis, and lead generation services.",
+            "_enriched": true
+        },
+        "transportation": {
+            "name": "Transportation & Logistic",
+            "keywords": [
+                "transportation",
+                "logistics",
+                "freight",
+                "shipping",
+                "warehousing",
+                "ground shipping",
+                "air freight",
+                "cargo",
+                "delivery",
+                "pickup",
+                "freight consolidation",
+                "supply chain"
+            ],
+            "style": [
+                "corporate",
+                "clean",
+                "modern",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Transportation and logistics company offering ground shipping, air freight, warehousing, and last-mile delivery.",
+            "_enriched": true
+        },
+        "renewable-energy": {
+            "name": "Renewable Energy",
+            "keywords": [
+                "renewable energy",
+                "solar panels",
+                "residential solar",
+                "commercial solar",
+                "solar installation",
+                "clean energy",
+                "energy savings",
+                "sustainable power",
+                "energy systems",
+                "solar power",
+                "affordable energy",
+                "green energy"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Renewable energy company offering residential and commercial solar panel installation with up to 95% energy savings.",
+            "_enriched": true
+        },
+        "business-consulting4": {
+            "name": "Business Consulting 4",
+            "keywords": [
+                "business consulting",
+                "strategic planning",
+                "financial consulting",
+                "cash flow planning",
+                "corporate growth",
+                "digital transformation",
+                "financial management",
+                "business strategy",
+                "consulting firm",
+                "technology consulting",
+                "financial cleanup",
+                "advisory"
+            ],
+            "style": [
+                "modern",
+                "corporate",
+                "clean",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Leading consulting firm specializing in strategic planning, financial management, and digital transformation for growth.",
+            "_enriched": true
+        },
+        "auto-services": {
+            "name": "Auto Services",
+            "keywords": [
+                "auto repair",
+                "car mechanic",
+                "brake repair",
+                "oil change",
+                "transmission repair",
+                "ac repair",
+                "electrical diagnostics",
+                "suspension repair",
+                "auto body shop",
+                "tune up",
+                "fuel system",
+                "los angeles automotive"
+            ],
+            "style": [
+                "bold",
+                "modern",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Full-service auto repair and body shop offering brake, transmission, AC, diagnostics, and tune-up services in LA.",
+            "_enriched": true
+        },
+        "startup-agency": {
+            "name": "Startup Agency",
+            "keywords": [
+                "startup agency",
+                "digital agency",
+                "web development",
+                "digital solutions",
+                "web design",
+                "html5",
+                "css3",
+                "product development",
+                "agency pricing",
+                "bootstrap",
+                "los angeles",
+                "digital experts"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "bold"
+            ],
+            "colors": [],
+            "description": "Startup digital agency creating web and digital solutions with tiered service plans for businesses of all sizes.",
+            "_enriched": true
+        },
+        "personal-portfolio1": {
+            "name": "Personal Portfolio 1",
+            "keywords": [
+                "personal portfolio",
+                "art director",
+                "digital designer",
+                "frontend development",
+                "ux ui design",
+                "graphic design",
+                "freelance designer",
+                "brand identity",
+                "web design",
+                "creative portfolio",
+                "visual identity",
+                "design thinking"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "modern",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Freelance art director and digital designer portfolio showcasing UX/UI, frontend development, and brand identity work.",
+            "_enriched": true
+        },
+        "beauty": {
+            "name": "Beauty Salon",
+            "keywords": [
+                "beauty salon",
+                "hair salon",
+                "nail salon",
+                "makeup",
+                "manicure",
+                "pedicure",
+                "hair color",
+                "eyebrow shaping",
+                "cosmetics",
+                "skincare",
+                "los angeles salon",
+                "beauty products"
+            ],
+            "style": [
+                "elegant",
+                "modern",
+                "clean",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Full-service beauty salon in LA offering hair, nails, makeup, and retail cosmetics with online booking.",
+            "_enriched": true
+        },
+        "dentist": {
+            "name": "Dentist",
+            "keywords": [
+                "dental clinic",
+                "dentist",
+                "dental implants",
+                "teeth whitening",
+                "oral surgery",
+                "root canal",
+                "dental cleaning",
+                "cosmetic dentistry",
+                "dental exams",
+                "clear braces",
+                "affordable dentistry",
+                "dental care"
+            ],
+            "style": [
+                "clean",
+                "minimal",
+                "professional",
+                "modern"
+            ],
+            "colors": [],
+            "description": "Full-service dental clinic in LA offering implants, whitening, oral surgery, and routine care.",
+            "_enriched": true
+        },
+        "business-consulting3": {
+            "name": "Business Consulting 3",
+            "keywords": [
+                "business consulting",
+                "strategy execution",
+                "revenue growth",
+                "sales strategy",
+                "digital marketing",
+                "cost transformation",
+                "operations optimization",
+                "financial planning",
+                "automation",
+                "executive consulting",
+                "strategic planning",
+                "b2b consulting"
+            ],
+            "style": [
+                "corporate",
+                "minimal",
+                "professional",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Corporate consulting firm accelerating strategy execution and revenue growth for businesses.",
+            "_enriched": true
+        },
+        "cleaning-services": {
+            "name": "Cleaning Services",
+            "keywords": [
+                "cleaning services",
+                "residential cleaning",
+                "commercial cleaning",
+                "office cleaning",
+                "post-construction cleaning",
+                "facility cleaning",
+                "building maintenance",
+                "professional cleaners",
+                "sanitization",
+                "janitorial",
+                "floor maintenance",
+                "affordable cleaning"
+            ],
+            "style": [
+                "clean",
+                "professional",
+                "modern",
+                "corporate"
+            ],
+            "colors": [],
+            "description": "Residential and commercial cleaning company offering office, facility, and post-construction cleaning.",
+            "_enriched": true
+        },
+        "architecture2": {
+            "name": "Architecture 2",
+            "keywords": [
+                "architecture firm",
+                "architectural design",
+                "interior design",
+                "exterior design",
+                "construction drawings",
+                "design studio",
+                "space planning",
+                "residential design",
+                "commercial architecture",
+                "building design",
+                "project planning",
+                "design consultation"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "elegant",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Architecture and design studio offering interior, exterior, and construction drawing services.",
+            "_enriched": true
+        },
+        "law-firm2": {
+            "name": "Law Firm 2",
+            "keywords": [
+                "law firm",
+                "attorney",
+                "legal services",
+                "family law",
+                "business law",
+                "accident injury law",
+                "health law",
+                "capital law",
+                "legal representation",
+                "los angeles lawyer",
+                "free consultation",
+                "litigation"
+            ],
+            "style": [
+                "corporate",
+                "professional",
+                "clean",
+                "modern"
+            ],
+            "colors": [],
+            "description": "Los Angeles law firm providing family, business, injury, and health law representation.",
+            "_enriched": true
+        },
+        "industry-factory": {
+            "name": "Industry Factory",
+            "keywords": [
+                "steel manufacturing",
+                "metal fabrication",
+                "industrial factory",
+                "custom steel pipe",
+                "automotive parts",
+                "oil and gas",
+                "wind solar energy",
+                "electrical components",
+                "heavy industry",
+                "b2b manufacturing",
+                "metals industry",
+                "fabrication services"
+            ],
+            "style": [
+                "bold",
+                "corporate",
+                "modern",
+                "industrial"
+            ],
+            "colors": [],
+            "description": "Heavy industry metals manufacturer supplying steel fabrication across automotive, energy, and oil and gas sectors.",
+            "_enriched": true
+        },
+        "business-consulting2": {
+            "name": "Business Consulting 2",
+            "keywords": [
+                "management consulting",
+                "business coaching",
+                "strategic planning",
+                "financial planning",
+                "cash flow planning",
+                "performance consulting",
+                "business strategy",
+                "marketing strategy",
+                "service benchmarking",
+                "corporate development",
+                "organizational consulting",
+                "los angeles consulting"
+            ],
+            "style": [
+                "corporate",
+                "clean",
+                "professional",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Management consulting firm offering strategic planning, business coaching, and financial advisory services.",
+            "_enriched": true
+        },
+        "it-services": {
+            "name": "IT Services",
+            "keywords": [
+                "it services",
+                "it support",
+                "managed it",
+                "cloud services",
+                "data security",
+                "software development",
+                "it consulting",
+                "tech support",
+                "outsourced it",
+                "cybersecurity",
+                "smb technology",
+                "business it solutions"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "corporate",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Managed IT services provider offering cloud, security, software development, and tech support for SMBs.",
+            "_enriched": true
+        },
+        "digital-agency2": {
+            "name": "Digital Agency 2",
+            "keywords": [
+                "digital agency",
+                "digital transformation",
+                "ux design",
+                "web development",
+                "content marketing",
+                "seo",
+                "social media advertising",
+                "brand identity",
+                "email marketing",
+                "b2b software",
+                "growth marketing",
+                "content strategy"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Digital agency delivering UX design, web development, SEO, and content marketing for business growth.",
+            "_enriched": true
+        },
+        "digital-agency2-dark": {
+            "name": "Digital Agency 2 Dark",
+            "keywords": [
+                "digital agency",
+                "dark theme",
+                "digital transformation",
+                "ux design",
+                "web development",
+                "brand identity",
+                "content marketing",
+                "seo",
+                "social media ads",
+                "b2b software",
+                "growth marketing",
+                "creative agency"
+            ],
+            "style": [
+                "bold",
+                "modern",
+                "dark",
+                "sleek"
+            ],
+            "colors": [],
+            "description": "Dark-themed digital agency offering design, development, SEO, and marketing transformation services.",
+            "_enriched": true
+        },
+        "construction": {
+            "name": "Construction",
+            "keywords": [
+                "construction company",
+                "general contractor",
+                "pre-construction",
+                "building services",
+                "plumbing",
+                "painting",
+                "residential construction",
+                "commercial construction",
+                "building design",
+                "construction firm",
+                "modern construction",
+                "home building"
+            ],
+            "style": [
+                "modern",
+                "bold",
+                "professional",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Full-service construction firm handling pre-construction, general contracting, plumbing, and painting projects.",
+            "_enriched": true
+        },
+        "hotel": {
+            "name": "Hotel",
+            "keywords": [
+                "hotel",
+                "luxury hotel",
+                "room booking",
+                "reservations",
+                "hotel suites",
+                "los angeles hotel",
+                "pool fitness center",
+                "airport transportation",
+                "pet friendly hotel",
+                "special offers",
+                "hospitality",
+                "boutique hotel"
+            ],
+            "style": [
+                "elegant",
+                "clean",
+                "luxury",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Luxury boutique hotel in Los Angeles offering room reservations, suites, dining, and premium amenities.",
+            "_enriched": true
+        },
+        "restaurant": {
+            "name": "Restaurant",
+            "keywords": [
+                "restaurant",
+                "fine dining",
+                "menu",
+                "reservations",
+                "pastrami",
+                "deli",
+                "traditional cuisine",
+                "appetizers",
+                "desserts",
+                "downtown restaurant",
+                "food photography",
+                "chef"
+            ],
+            "style": [
+                "elegant",
+                "modern",
+                "clean",
+                "warm"
+            ],
+            "colors": [],
+            "description": "Fine dining restaurant with a traditional deli menu featuring pastrami, classic appetizers, and homestyle desserts.",
+            "_enriched": true
+        },
+        "digital-agency": {
+            "name": "Digital Agency",
+            "keywords": [
+                "digital agency",
+                "web design",
+                "branding",
+                "logo design",
+                "web development",
+                "creative agency",
+                "marketing",
+                "portfolio",
+                "brand development",
+                "media production",
+                "website creation",
+                "design services"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "creative",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Creative digital agency showcasing portfolio work in web design, branding, logo design, and development.",
+            "_enriched": true
+        },
+        "medical": {
+            "name": "Medical",
+            "keywords": [
+                "medical clinic",
+                "healthcare",
+                "cardiology",
+                "gastroenterology",
+                "dental",
+                "gynecology",
+                "pulmonology",
+                "specialist doctors",
+                "medical appointments",
+                "emergency care",
+                "insurance accepted",
+                "multi-specialty clinic"
+            ],
+            "style": [
+                "clean",
+                "professional",
+                "modern",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Multi-specialty medical clinic offering cardiology, dental, gynecology, and other specialist appointments.",
+            "_enriched": true
+        },
+        "wedding": {
+            "name": "Wedding",
+            "keywords": [
+                "wedding",
+                "ceremony",
+                "rsvp",
+                "guestbook",
+                "gift registry",
+                "wedding photography",
+                "couple",
+                "event planning",
+                "wedding venue",
+                "photo gallery",
+                "wedding blog",
+                "romantic"
+            ],
+            "style": [
+                "elegant",
+                "romantic",
+                "minimal",
+                "clean"
+            ],
+            "colors": [],
+            "description": "A romantic wedding site for couples to share ceremony details, manage RSVPs, and display photo galleries.",
+            "_enriched": true
+        },
+        "photography1": {
+            "name": "Photography 1",
+            "keywords": [
+                "photography",
+                "portrait",
+                "wedding photography",
+                "landscape photography",
+                "family photography",
+                "lifestyle photography",
+                "photo portfolio",
+                "gallery",
+                "photographer",
+                "travel photography",
+                "visual storytelling",
+                "portfolio layouts"
+            ],
+            "style": [
+                "minimal",
+                "bold",
+                "modern",
+                "clean"
+            ],
+            "colors": [],
+            "description": "A photography portfolio demo showcasing multiple niches including wedding, family, landscape, and lifestyle work.",
+            "_enriched": true
+        },
+        "business-consulting": {
+            "name": "Business Consulting",
+            "keywords": [
+                "business consulting",
+                "corporate finance",
+                "strategic consulting",
+                "restructuring",
+                "litigation consulting",
+                "economic consulting",
+                "tech consulting",
+                "advisory",
+                "business strategy",
+                "certified consultants",
+                "enterprise",
+                "free consultation"
+            ],
+            "style": [
+                "corporate",
+                "modern",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "A professional business consulting firm offering strategic, financial, and tech advisory services to enterprises.",
+            "_enriched": true
+        },
+        "resume": {
+            "name": "Resume",
+            "keywords": [
+                "resume",
+                "personal portfolio",
+                "cv",
+                "product manager",
+                "ui ux design",
+                "front-end development",
+                "personal branding",
+                "career",
+                "skills",
+                "experience",
+                "recommendations",
+                "professional profile"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "modern"
+            ],
+            "colors": [],
+            "description": "A personal resume and portfolio site for creative professionals to showcase skills, experience, and work samples.",
+            "_enriched": true
+        },
+        "finance": {
+            "name": "Finance",
+            "keywords": [
+                "financial advisor",
+                "wealth management",
+                "investment management",
+                "financial planning",
+                "accounting",
+                "retirement planning",
+                "portfolio management",
+                "independent advisor",
+                "business planning",
+                "personal finance",
+                "financial services",
+                "client advisory"
+            ],
+            "style": [
+                "corporate",
+                "clean",
+                "modern",
+                "trustworthy"
+            ],
+            "colors": [],
+            "description": "An independent financial advisory firm offering personalized wealth management and investment planning since 1985.",
+            "_enriched": true
+        },
+        "agency-one-page": {
+            "name": "Agency Onepage",
+            "keywords": [
+                "digital agency",
+                "web design",
+                "web development",
+                "mobile apps",
+                "branding",
+                "portfolio",
+                "creative agency",
+                "responsive design",
+                "ui ux",
+                "case studies",
+                "one-page",
+                "new york agency"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "A one-page digital agency site showcasing web design, development, and mobile app services with a portfolio.",
+            "_enriched": true
+        },
+        "real-estate": {
+            "name": "Real Estate",
+            "keywords": [
+                "real estate",
+                "properties for sale",
+                "properties for rent",
+                "residential homes",
+                "condominiums",
+                "apartments",
+                "miami",
+                "palm beach",
+                "property listings",
+                "real estate agents",
+                "luxury properties",
+                "property search"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "elegant",
+                "professional"
+            ],
+            "colors": [],
+            "description": "A real estate agency listing upscale residential homes, condos, and apartments for sale and rent in Miami and Palm Beach.",
+            "_enriched": true
+        },
+        "education": {
+            "name": "Education",
+            "keywords": [
+                "online education",
+                "e-learning",
+                "courses",
+                "maths",
+                "computer science",
+                "creative writing",
+                "information theory",
+                "course enrollment",
+                "instructors",
+                "learning platform",
+                "student registration",
+                "academic training"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "friendly",
+                "professional"
+            ],
+            "colors": [],
+            "description": "An online education platform offering affordable courses in maths, computer science, writing, and more with instructor profiles.",
+            "_enriched": true
+        },
+        "insurance": {
+            "name": "Insurance",
+            "keywords": [
+                "insurance",
+                "home insurance",
+                "travel insurance",
+                "life insurance",
+                "car insurance",
+                "business insurance",
+                "coverage",
+                "insurance quotes",
+                "affordable rates",
+                "policy",
+                "online insurance",
+                "insurance agents"
+            ],
+            "style": [
+                "corporate",
+                "clean",
+                "modern",
+                "trustworthy"
+            ],
+            "colors": [],
+            "description": "An insurance services site offering affordable home, travel, life, car, and business coverage with online quotes.",
+            "_enriched": true
+        },
+        "seo": {
+            "name": "SEO",
+            "keywords": [
+                "seo agency",
+                "search engine optimization",
+                "digital marketing",
+                "email marketing",
+                "social media marketing",
+                "link building",
+                "data analysis",
+                "seo audit",
+                "online visibility",
+                "business growth",
+                "seo pricing",
+                "ranking improvement"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "corporate",
+                "bold"
+            ],
+            "colors": [],
+            "description": "An SEO and digital marketing agency offering optimization, email marketing, link building, and data analysis services.",
+            "_enriched": true
+        },
+        "corporate1": {
+            "name": "Corporate 1",
+            "keywords": [
+                "corporate",
+                "web design agency",
+                "creative agency",
+                "digital solutions",
+                "portfolio",
+                "customer support",
+                "html5",
+                "css3",
+                "javascript",
+                "brand design",
+                "responsive",
+                "multipurpose business"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "corporate"
+            ],
+            "colors": [],
+            "description": "A corporate web design and digital services agency demo with portfolio, testimonials, and style switcher.",
+            "_enriched": true
+        },
+        "corporate8": {
+            "name": "Corporate 2",
+            "keywords": [
+                "corporate",
+                "technology company",
+                "saas",
+                "hosting",
+                "business services",
+                "pricing plans",
+                "team",
+                "portfolio",
+                "testimonials",
+                "centered header",
+                "professional services",
+                "enterprise solutions"
+            ],
+            "style": [
+                "corporate",
+                "modern",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "A technology and business services corporate demo featuring tiered pricing, portfolio, and team sections.",
+            "_enriched": true
+        },
+        "corporate11": {
+            "name": "Corporate 3",
+            "keywords": [
+                "corporate",
+                "brand solutions",
+                "mobile apps",
+                "agency",
+                "side navigation",
+                "minimalist corporate",
+                "professional services",
+                "client metrics",
+                "project portfolio",
+                "testimonials",
+                "b2b",
+                "black and white"
+            ],
+            "style": [
+                "minimal",
+                "modern",
+                "clean",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "A sleek corporate agency demo with a side header layout, black-and-white palette, and brand and app services.",
+            "_enriched": true
+        },
+        "corporate12": {
+            "name": "Corporate 4",
+            "keywords": [
+                "corporate agency",
+                "mobile apps",
+                "creative websites",
+                "seo optimization",
+                "brand solutions",
+                "web development",
+                "project portfolio",
+                "process workflow",
+                "testimonials",
+                "client logos",
+                "professional services",
+                "flat design"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "corporate",
+                "bold"
+            ],
+            "colors": [],
+            "description": "A corporate agency demo showcasing mobile apps, creative websites, SEO, and brand solutions with a process workflow.",
+            "_enriched": true
+        },
+        "corporate21": {
+            "name": "Corporate 5",
+            "keywords": [
+                "corporate",
+                "strategic planning",
+                "financial consulting",
+                "professional services",
+                "results-driven",
+                "business strategy",
+                "b2b",
+                "portfolio",
+                "team",
+                "modern corporate",
+                "minimalist",
+                "grid layout"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "corporate"
+            ],
+            "colors": [],
+            "description": "A results-focused corporate services demo highlighting strategic planning and financial clean-up with a minimalist grid layout.",
+            "_enriched": true
+        },
+        "shop1": {
+            "name": "Shop 1",
+            "keywords": [
+                "fashion",
+                "apparel",
+                "shoes",
+                "bags",
+                "accessories",
+                "clothing",
+                "multi-category",
+                "activewear",
+                "sunglasses",
+                "watches",
+                "seasonal sale",
+                "men women kids"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "contemporary"
+            ],
+            "colors": [],
+            "description": "Multi-category fashion store selling apparel, shoes, bags, and accessories for men, women, and kids.",
+            "_enriched": true
+        },
+        "shop2": {
+            "name": "Shop 2",
+            "keywords": [
+                "fashion",
+                "electronics",
+                "home decor",
+                "accessories",
+                "clothing",
+                "shoes",
+                "bags",
+                "multi-category",
+                "headphones",
+                "furniture",
+                "sporting goods",
+                "general merchandise"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "professional"
+            ],
+            "colors": [],
+            "description": "General merchandise store spanning fashion, electronics, home furnishings, and sporting goods.",
+            "_enriched": true
+        },
+        "shop3": {
+            "name": "Shop 3",
+            "keywords": [
+                "fashion",
+                "shoes",
+                "bags",
+                "accessories",
+                "sunglasses",
+                "sneakers",
+                "handbags",
+                "eyewear",
+                "jackets",
+                "hats",
+                "seasonal sale",
+                "apparel"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "modern",
+                "contemporary"
+            ],
+            "colors": [],
+            "description": "Fashion and accessories boutique focused on shoes, bags, eyewear, and casual apparel.",
+            "_enriched": true
+        },
+        "shop4": {
+            "name": "Shop 4",
+            "keywords": [
+                "fashion",
+                "sunglasses",
+                "footwear",
+                "bags",
+                "watches",
+                "clothing",
+                "accessories",
+                "electronics",
+                "multi-category",
+                "hoodies",
+                "seasonal sale",
+                "apparel"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Multi-sector retailer offering fashion, accessories, and electronics with bold seasonal sale promotions.",
+            "_enriched": true
+        },
+        "shop55": {
+            "name": "Shop 55",
+            "keywords": [
+                "activewear",
+                "fitness",
+                "athletic",
+                "sports bras",
+                "leggings",
+                "yoga",
+                "compression",
+                "gym bags",
+                "running shoes",
+                "performance apparel",
+                "workout",
+                "women men"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "energetic"
+            ],
+            "colors": [],
+            "description": "Premium activewear store selling performance fitness apparel and accessories for men and women.",
+            "_enriched": true
+        },
+        "shop54": {
+            "name": "Shop 54",
+            "keywords": [
+                "cosmetics",
+                "beauty",
+                "skincare",
+                "makeup",
+                "haircare",
+                "fragrance",
+                "moisturizer",
+                "foundation",
+                "lipstick",
+                "perfume",
+                "luxury beauty",
+                "bath body"
+            ],
+            "style": [
+                "luxury",
+                "clean",
+                "elegant",
+                "modern"
+            ],
+            "colors": [],
+            "description": "Upscale beauty store offering skincare, makeup, haircare, and fragrances from top brands.",
+            "_enriched": true
+        },
+        "shop53": {
+            "name": "Shop 53",
+            "keywords": [
+                "handmade",
+                "artisan",
+                "pottery",
+                "woodwork",
+                "candles",
+                "home decor",
+                "textiles",
+                "ceramics",
+                "mugs",
+                "vases",
+                "craftsmanship",
+                "lifestyle"
+            ],
+            "style": [
+                "minimal",
+                "natural",
+                "warm",
+                "artisanal"
+            ],
+            "colors": [],
+            "description": "Artisan handmade goods store featuring pottery, woodwork, candles, and home décor with a craftsmanship focus.",
+            "_enriched": true
+        },
+        "shop52": {
+            "name": "Shop 52",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "apparel",
+                "women",
+                "men",
+                "kids",
+                "dresses",
+                "jeans",
+                "sneakers",
+                "handbags",
+                "accessories",
+                "wardrobe"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Comprehensive clothing and accessories retailer for women, men, and kids with fresh weekly arrivals.",
+            "_enriched": true
+        },
+        "shop51": {
+            "name": "Shop 51",
+            "keywords": [
+                "pet supplies",
+                "dog food",
+                "cat food",
+                "pet accessories",
+                "aquarium",
+                "bird supplies",
+                "treats",
+                "leashes",
+                "collars",
+                "pet food",
+                "pet toys",
+                "animals"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "friendly",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Pet supply store offering food, treats, and accessories for dogs, cats, birds, fish, and small animals.",
+            "_enriched": true
+        },
+        "shop50": {
+            "name": "Shop 50",
+            "keywords": [
+                "electronics",
+                "phone accessories",
+                "cases",
+                "screen protectors",
+                "chargers",
+                "cables",
+                "headphones",
+                "power banks",
+                "apple watch",
+                "samsung",
+                "magsafe",
+                "wearables"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "modern",
+                "sleek"
+            ],
+            "colors": [],
+            "description": "Mobile and electronics accessories store selling cases, chargers, cables, and headphones for Apple and Samsung.",
+            "_enriched": true
+        },
+        "shop49": {
+            "name": "Shop 49",
+            "keywords": [
+                "furniture",
+                "home decor",
+                "sofas",
+                "dining chairs",
+                "bedding",
+                "lighting",
+                "outdoor furniture",
+                "kitchen",
+                "pillows",
+                "vases",
+                "chandeliers",
+                "interior design"
+            ],
+            "style": [
+                "elegant",
+                "minimal",
+                "modern",
+                "upscale"
+            ],
+            "colors": [],
+            "description": "Contemporary home furnishings store selling furniture, lighting, bedding, and décor for every room.",
+            "_enriched": true
+        },
+        "shop48": {
+            "name": "Shop 48",
+            "keywords": [
+                "jewelry",
+                "rings",
+                "necklaces",
+                "earrings",
+                "bracelets",
+                "anklets",
+                "charms",
+                "sterling silver",
+                "diamond",
+                "wedding jewelry",
+                "fine jewelry",
+                "luxury"
+            ],
+            "style": [
+                "luxury",
+                "elegant",
+                "minimal",
+                "refined"
+            ],
+            "colors": [],
+            "description": "Fine jewelry boutique featuring rings, necklaces, earrings, and bracelets including bridal and diamond collections.",
+            "_enriched": true
+        },
+        "shop47": {
+            "name": "Shop 47",
+            "keywords": [
+                "fashion",
+                "shoes",
+                "bags",
+                "sunglasses",
+                "jackets",
+                "handbags",
+                "accessories",
+                "belts",
+                "sandals",
+                "sneakers",
+                "clothing",
+                "eyewear"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Fashion and accessories store specializing in footwear, bags, sunglasses, and clothing with major sale promotions.",
+            "_enriched": true
+        },
+        "shop45": {
+            "name": "Shop 45",
+            "keywords": [
+                "electronics",
+                "smartphones",
+                "laptops",
+                "tablets",
+                "cameras",
+                "audio",
+                "apple",
+                "samsung",
+                "headphones",
+                "gaming",
+                "home appliances",
+                "multi-category"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Electronics-led multi-category store featuring smartphones, laptops, audio gear, and Apple products.",
+            "_enriched": true
+        },
+        "shop46": {
+            "name": "Shop 46",
+            "keywords": [
+                "furniture",
+                "electronics",
+                "home appliances",
+                "armchair",
+                "office chair",
+                "tablets",
+                "kitchen appliances",
+                "tools",
+                "storage",
+                "luggage",
+                "multi-category",
+                "general merchandise"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "functional",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Department-style online store covering furniture, electronics, appliances, fashion, and home goods.",
+            "_enriched": true
+        },
+        "shop43": {
+            "name": "Shop 43",
+            "keywords": [
+                "electronics",
+                "consumer tech",
+                "laptops",
+                "smartwatch",
+                "headphones",
+                "audio equipment",
+                "computing",
+                "gadgets",
+                "accessories",
+                "wireless",
+                "keyboards",
+                "mobile devices"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "modern",
+                "functional"
+            ],
+            "colors": [],
+            "description": "Electronics and consumer tech store featuring laptops, smartwatches, headphones, and audio gear.",
+            "_enriched": true
+        },
+        "shop44": {
+            "name": "Shop 44",
+            "keywords": [
+                "electronics",
+                "fashion",
+                "furniture",
+                "multi-category",
+                "laptops",
+                "cameras",
+                "clothing",
+                "watches",
+                "smartphones",
+                "audio",
+                "home goods",
+                "department store"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "spacious"
+            ],
+            "colors": [],
+            "description": "Multi-category department store covering electronics, fashion, furniture, and sporting goods.",
+            "_enriched": true
+        },
+        "shop35": {
+            "name": "Shop 35 (Grocery 1)",
+            "keywords": [
+                "grocery",
+                "organic food",
+                "fresh produce",
+                "vegetables",
+                "fruits",
+                "breakfast",
+                "frozen foods",
+                "healthy eating",
+                "low carb",
+                "organic coffee",
+                "food delivery",
+                "supermarket"
+            ],
+            "style": [
+                "clean",
+                "fresh",
+                "minimal",
+                "green"
+            ],
+            "colors": [],
+            "description": "Online grocery store specializing in fresh produce, organic food, and healthy breakfast products.",
+            "_enriched": true
+        },
+        "shop36": {
+            "name": "Shop 36 (Marketplace 2)",
+            "keywords": [
+                "fashion",
+                "electronics",
+                "multi-category",
+                "drones",
+                "cameras",
+                "clothing",
+                "furniture",
+                "home goods",
+                "gadgets",
+                "toys",
+                "sports",
+                "marketplace"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "bold"
+            ],
+            "colors": [],
+            "description": "Multi-category marketplace offering fashion, electronics, drones, and home goods at sale prices.",
+            "_enriched": true
+        },
+        "shop14": {
+            "name": "Shop 14",
+            "keywords": [
+                "electronics",
+                "headphones",
+                "audio",
+                "wireless",
+                "watches",
+                "consumer tech",
+                "accessories",
+                "fashion",
+                "t-shirts",
+                "shoes",
+                "noise cancelling",
+                "gadgets"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "corporate"
+            ],
+            "colors": [],
+            "description": "Electronics and accessories store focused on headphones, audio equipment, and wearable tech.",
+            "_enriched": true
+        },
+        "shop32": {
+            "name": "Shop 32",
+            "keywords": [
+                "multi-category",
+                "fashion",
+                "shoes",
+                "electronics",
+                "furniture",
+                "cameras",
+                "smartphones",
+                "garden",
+                "gifts",
+                "automotive",
+                "department store",
+                "sale"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "bold"
+            ],
+            "colors": [],
+            "description": "General merchandise online department store with fashion, electronics, furniture, and garden supplies.",
+            "_enriched": true
+        },
+        "shop33": {
+            "name": "Shop 33",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "footwear",
+                "accessories",
+                "leather jacket",
+                "bags",
+                "sunglasses",
+                "watches",
+                "belts",
+                "mens fashion",
+                "womens fashion",
+                "lifestyle"
+            ],
+            "style": [
+                "clean",
+                "minimal",
+                "modern",
+                "functional"
+            ],
+            "colors": [],
+            "description": "Fashion and lifestyle store selling clothing, leather jackets, footwear, bags, and accessories.",
+            "_enriched": true
+        },
+        "shop40": {
+            "name": "Shop 40 (Grocery 2)",
+            "keywords": [
+                "grocery",
+                "food",
+                "organic",
+                "fruits",
+                "vegetables",
+                "meat",
+                "seafood",
+                "dairy",
+                "bakery",
+                "beverages",
+                "snacks",
+                "healthy eating"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "fresh",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Full-range online grocery store with fresh produce, organic items, meat, dairy, and bakery goods.",
+            "_enriched": true
+        },
+        "shop5": {
+            "name": "Shop 5",
+            "keywords": [
+                "fashion",
+                "accessories",
+                "shoes",
+                "sunglasses",
+                "bags",
+                "caps",
+                "electronics",
+                "cameras",
+                "clothing",
+                "dresses",
+                "lifestyle",
+                "sale"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Fashion and accessories store offering shoes, sunglasses, bags, clothing, and electronics.",
+            "_enriched": true
+        },
+        "shop6": {
+            "name": "Shop 6",
+            "keywords": [
+                "fashion",
+                "footwear",
+                "shoes",
+                "sneakers",
+                "sandals",
+                "accessories",
+                "sunglasses",
+                "handbags",
+                "women",
+                "men",
+                "apparel",
+                "trendy"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "fresh"
+            ],
+            "colors": [],
+            "description": "Fashion retail store specializing in footwear, sunglasses, handbags, and trendy apparel collections.",
+            "_enriched": true
+        },
+        "shop7": {
+            "name": "Shop 7",
+            "keywords": [
+                "fashion",
+                "apparel",
+                "footwear",
+                "sneakers",
+                "accessories",
+                "bags",
+                "sunglasses",
+                "clothing",
+                "jackets",
+                "dresses",
+                "lifestyle",
+                "new arrivals"
+            ],
+            "style": [
+                "clean",
+                "minimal",
+                "modern",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Fashion-forward clothing and accessories store featuring sneakers, bags, sunglasses, and seasonal styles.",
+            "_enriched": true
+        },
+        "shop8": {
+            "name": "Shop 8",
+            "keywords": [
+                "furniture",
+                "home decor",
+                "chairs",
+                "sofas",
+                "interior design",
+                "home goods",
+                "electronics",
+                "fashion",
+                "accessories",
+                "seating",
+                "living room",
+                "modern furniture"
+            ],
+            "style": [
+                "professional",
+                "clean",
+                "modern",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Furniture and home decor store featuring chairs, sofas, and interior design pieces with a red accent brand identity.",
+            "_enriched": true
+        },
+        "shop9": {
+            "name": "Shop 9",
+            "keywords": [
+                "fashion",
+                "footwear",
+                "shoes",
+                "boots",
+                "bags",
+                "sunglasses",
+                "clothing",
+                "accessories",
+                "women",
+                "men",
+                "kids",
+                "lifestyle"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "bold"
+            ],
+            "colors": [],
+            "description": "Multi-category fashion retailer specializing in footwear, bags, sunglasses, and seasonal clothing.",
+            "_enriched": true
+        },
+        "shop10": {
+            "name": "Shop 10",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "accessories",
+                "women",
+                "men",
+                "shoes",
+                "bags",
+                "belts",
+                "watches",
+                "dresses",
+                "blouses",
+                "apparel"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "contemporary"
+            ],
+            "colors": [],
+            "description": "Fashion and accessories store with clothing, shoes, bags, belts, and watches for men and women.",
+            "_enriched": true
+        },
+        "shop11": {
+            "name": "Shop 11",
+            "keywords": [
+                "fashion",
+                "electronics",
+                "clothing",
+                "dresses",
+                "jackets",
+                "shoes",
+                "handbags",
+                "accessories",
+                "headphones",
+                "smartphones",
+                "laptops",
+                "new season"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "fresh"
+            ],
+            "colors": [],
+            "description": "Fashion and electronics retailer offering dresses, jackets, shoes, handbags, and consumer tech devices.",
+            "_enriched": true
+        },
+        "shop12": {
+            "name": "Shop 12",
+            "keywords": [
+                "fashion",
+                "accessories",
+                "watches",
+                "shoes",
+                "electronics",
+                "bags",
+                "belts",
+                "headphones",
+                "multi-category",
+                "sportswear",
+                "sale",
+                "seasonal"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "minimal",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Multi-category store offering fashion, accessories, watches, shoes, and electronics with seasonal sale promotions.",
+            "_enriched": true
+        },
+        "shop13": {
+            "name": "Shop 13",
+            "keywords": [
+                "fashion",
+                "electronics",
+                "headphones",
+                "watches",
+                "caps",
+                "shoes",
+                "bags",
+                "belts",
+                "multi-category",
+                "accessories",
+                "casual",
+                "retail"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "corporate"
+            ],
+            "colors": [],
+            "description": "Contemporary multi-category store spanning fashion accessories, electronics, and footwear with free returns.",
+            "_enriched": true
+        },
+        "shop15": {
+            "name": "Shop 15",
+            "keywords": [
+                "fashion",
+                "apparel",
+                "electronics",
+                "shoes",
+                "jacket",
+                "jeans",
+                "watches",
+                "caps",
+                "laptops",
+                "multi-category",
+                "clothing",
+                "accessories"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "upscale",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Fashion and electronics retailer featuring apparel, footwear, and consumer tech with discount pricing.",
+            "_enriched": true
+        },
+        "shop16": {
+            "name": "Shop 16 (Parallax)",
+            "keywords": [
+                "fashion",
+                "women",
+                "dresses",
+                "sunglasses",
+                "shoes",
+                "watches",
+                "accessories",
+                "underwear",
+                "clothing",
+                "heels",
+                "caps",
+                "seasonal"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "contemporary"
+            ],
+            "colors": [],
+            "description": "Women's fashion store with clothing, heels, sunglasses, and accessories at up to 50% off seasonal sales.",
+            "_enriched": true
+        },
+        "shop17": {
+            "name": "Shop 17",
+            "keywords": [
+                "cosmetics",
+                "beauty",
+                "lipstick",
+                "face powder",
+                "skincare",
+                "brushes",
+                "eyebrow",
+                "makeup",
+                "beauty tools",
+                "rose oil",
+                "cosmetic bag",
+                "lips"
+            ],
+            "style": [
+                "clean",
+                "minimal",
+                "elegant",
+                "light"
+            ],
+            "colors": [],
+            "description": "Beauty and cosmetics store selling makeup, skincare, brushes, and tools with free next-day delivery.",
+            "_enriched": true
+        },
+        "shop18": {
+            "name": "Shop 18",
+            "keywords": [
+                "sportswear",
+                "fashion",
+                "sneakers",
+                "shoes",
+                "backpack",
+                "clothing",
+                "activewear",
+                "men",
+                "women",
+                "kids",
+                "athletic",
+                "seasonal"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "energetic"
+            ],
+            "colors": [],
+            "description": "Sportswear and fashion store featuring sneakers, activewear, and accessories for men, women, and kids.",
+            "_enriched": true
+        },
+        "shop19": {
+            "name": "Shop 19",
+            "keywords": [
+                "multi-category",
+                "fashion",
+                "electronics",
+                "toys",
+                "home",
+                "garden",
+                "sports",
+                "gifts",
+                "bomber jacket",
+                "baseball cap",
+                "department store",
+                "lifestyle"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "professional",
+                "functional"
+            ],
+            "colors": [],
+            "description": "Department-store style retailer covering fashion, electronics, toys, home and garden, and lifestyle products.",
+            "_enriched": true
+        },
+        "shop20": {
+            "name": "Shop 20",
+            "keywords": [
+                "furniture",
+                "home decor",
+                "fashion",
+                "chairs",
+                "sofa",
+                "lighting",
+                "electronics",
+                "watches",
+                "shoes",
+                "home goods",
+                "multi-category",
+                "lifestyle"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "neutral"
+            ],
+            "colors": [],
+            "description": "General merchandise store mixing furniture, home decor, fashion, and electronics with big sale promotions.",
+            "_enriched": true
+        },
+        "shop21": {
+            "name": "Shop 21",
+            "keywords": [
+                "electronics",
+                "cameras",
+                "headsets",
+                "speakers",
+                "smartwatch",
+                "laptops",
+                "tech gadgets",
+                "accessories",
+                "backpack",
+                "computer mouse",
+                "action camera",
+                "deals"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "professional",
+                "clean"
+            ],
+            "colors": [],
+            "description": "Electronics and tech accessories store featuring cameras, headsets, smartwatches, and gadgets with hot deals.",
+            "_enriched": true
+        },
+        "shop22": {
+            "name": "Shop 22 (Marketplace, Dokan Lite)",
+            "keywords": [
+                "electronics",
+                "multi-vendor",
+                "marketplace",
+                "cameras",
+                "speakers",
+                "smartwatch",
+                "laptops",
+                "headphones",
+                "fashion",
+                "home goods",
+                "tech",
+                "accessories"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "professional",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Multi-vendor electronics marketplace offering tech gadgets, accessories, fashion, and home goods with deal countdowns.",
+            "_enriched": true
+        },
+        "shop23": {
+            "name": "Shop 23 (Baby Shop)",
+            "keywords": [
+                "children",
+                "baby",
+                "kids",
+                "clothing",
+                "shoes",
+                "girls",
+                "boys",
+                "dresses",
+                "outfits",
+                "toys",
+                "baby fashion",
+                "footwear"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "playful",
+                "friendly"
+            ],
+            "colors": [],
+            "description": "Children's clothing and footwear boutique for babies, boys, and girls with free shipping and returns.",
+            "_enriched": true
+        },
+        "shop24": {
+            "name": "Shop 24 (Digital Product)",
+            "keywords": [
+                "digital products",
+                "wordpress themes",
+                "website templates",
+                "shopify theme",
+                "html template",
+                "magento theme",
+                "web design",
+                "software",
+                "ecommerce themes",
+                "responsive",
+                "developer",
+                "online store"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "corporate",
+                "minimal"
+            ],
+            "colors": [],
+            "description": "Digital marketplace for WordPress, Shopify, Magento, and HTML website themes and templates for developers.",
+            "_enriched": true
+        },
+        "shop25": {
+            "name": "Shop 25 (Book Store)",
+            "keywords": [
+                "books",
+                "bookstore",
+                "literature",
+                "fiction",
+                "mystery",
+                "sci-fi",
+                "fantasy",
+                "arts",
+                "business",
+                "publishing",
+                "novel",
+                "reading"
+            ],
+            "style": [
+                "minimal",
+                "clean",
+                "professional",
+                "classic"
+            ],
+            "colors": [],
+            "description": "Online bookstore with curated titles across fiction, mystery, sci-fi, arts, and business with student discounts.",
+            "_enriched": true
+        },
+        "shop26": {
+            "name": "Shop 26",
+            "keywords": [
+                "automotive",
+                "car parts",
+                "motorcycle parts",
+                "performance wheels",
+                "tires",
+                "shock absorbers",
+                "steering wheels",
+                "car accessories",
+                "lighting",
+                "fluids",
+                "mechanics",
+                "aftermarket"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "professional"
+            ],
+            "colors": [],
+            "description": "Automotive parts and accessories store for cars and motorcycles covering performance, lighting, and interior upgrades.",
+            "_enriched": true
+        },
+        "shop27": {
+            "name": "Shop 27 (Bike Store)",
+            "keywords": [
+                "bicycles",
+                "cycling",
+                "bike frames",
+                "bike saddles",
+                "bike pedals",
+                "bike chains",
+                "bike tools",
+                "sporting goods",
+                "cycling accessories",
+                "mountain bike",
+                "road bike",
+                "summer sale"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bold",
+                "athletic"
+            ],
+            "colors": [],
+            "description": "Cycling specialist store selling bikes, frames, saddles, pedals, chains, and tools with summer sale discounts.",
+            "_enriched": true
+        },
+        "shop28": {
+            "name": "Shop 28 (Single Product)",
+            "keywords": [
+                "electronics",
+                "headphones",
+                "audio",
+                "bluetooth",
+                "noise cancelling",
+                "premium audio",
+                "consumer electronics",
+                "wireless headphones",
+                "earphones",
+                "tech accessories"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "product-focused"
+            ],
+            "colors": [],
+            "description": "Premium electronics demo selling a high-end Bluetooth noise-cancelling headphone with clean product storytelling.",
+            "_enriched": true
+        },
+        "shop29": {
+            "name": "Shop 29",
+            "keywords": [
+                "furniture",
+                "home decor",
+                "interior design",
+                "wooden chair",
+                "dining table",
+                "bedroom",
+                "living room",
+                "kitchen",
+                "office furniture",
+                "outdoor furniture",
+                "home furnishings"
+            ],
+            "style": [
+                "minimalist",
+                "luxury",
+                "contemporary",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Modern furniture and home decor shop featuring dining, bedroom, and living room pieces in a minimalist black-and-gold style.",
+            "_enriched": true
+        },
+        "shop30": {
+            "name": "Shop 30",
+            "keywords": [
+                "gifts",
+                "gift shop",
+                "personalized gifts",
+                "mugs",
+                "toys",
+                "teddy bear",
+                "stationery",
+                "kitchen gifts",
+                "fashion gifts",
+                "merchandise",
+                "for her",
+                "for him"
+            ],
+            "style": [
+                "modern",
+                "clean",
+                "bright",
+                "friendly"
+            ],
+            "colors": [],
+            "description": "Multi-category gift shop offering personalized and curated products for her, him, and kids across fashion, kitchen, and stationery.",
+            "_enriched": true
+        },
+        "shop31": {
+            "name": "Shop 31 (Game Store)",
+            "keywords": [
+                "gaming",
+                "video games",
+                "pc games",
+                "console games",
+                "action games",
+                "fps",
+                "horror games",
+                "survival games",
+                "gaming store",
+                "game retail",
+                "controllers"
+            ],
+            "style": [
+                "dark",
+                "bold",
+                "modern",
+                "sleek"
+            ],
+            "colors": [],
+            "description": "Video game retail store specializing in action, FPS, horror, and survival titles with a dark gaming aesthetic.",
+            "_enriched": true
+        },
+        "shop34": {
+            "name": "Shop 34",
+            "keywords": [
+                "cosmetics",
+                "beauty",
+                "skincare",
+                "makeup",
+                "haircare",
+                "fragrance",
+                "body care",
+                "beauty products",
+                "serum",
+                "face mask",
+                "perfume"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "minimal",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Full-range cosmetics and beauty shop covering skincare, makeup, haircare, and fragrance in a professional minimalist layout.",
+            "_enriched": true
+        },
+        "shop37": {
+            "name": "Shop 37",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "apparel",
+                "women",
+                "men",
+                "kids",
+                "shoes",
+                "accessories",
+                "watches",
+                "handbags",
+                "jewelry",
+                "family fashion"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "fresh"
+            ],
+            "colors": [],
+            "description": "Family fashion boutique offering apparel, footwear, and accessories for women, men, and children with seasonal sale promotions.",
+            "_enriched": true
+        },
+        "shop38": {
+            "name": "Shop 38 (Medical Shop)",
+            "keywords": [
+                "medical supplies",
+                "healthcare",
+                "diagnostic equipment",
+                "masks",
+                "thermometer",
+                "pulse oximeter",
+                "blood pressure monitor",
+                "medical devices",
+                "hospital supplies",
+                "pharmacy"
+            ],
+            "style": [
+                "clean",
+                "professional",
+                "minimal",
+                "trustworthy"
+            ],
+            "colors": [],
+            "description": "Medical supplies e-commerce store offering diagnostic equipment, protective gear, and healthcare products in a clinical clean design.",
+            "_enriched": true
+        },
+        "shop39": {
+            "name": "Shop 39 (Wine Shop)",
+            "keywords": [
+                "wine",
+                "wine shop",
+                "red wine",
+                "white wine",
+                "champagne",
+                "bordeaux",
+                "cabernet sauvignon",
+                "chardonnay",
+                "pinot noir",
+                "fine wine",
+                "wine region",
+                "luxury wine"
+            ],
+            "style": [
+                "elegant",
+                "sophisticated",
+                "minimal",
+                "refined"
+            ],
+            "colors": [],
+            "description": "Premium wine retailer with curated selections by varietal and region, featuring bordeaux, burgundy, and napa valley labels.",
+            "_enriched": true
+        },
+        "shop41": {
+            "name": "Shop 41 (Grocery 3)",
+            "keywords": [
+                "grocery",
+                "food",
+                "fresh produce",
+                "fruits vegetables",
+                "meat seafood",
+                "dairy",
+                "organic",
+                "beverages",
+                "bakery",
+                "gluten-free",
+                "online grocery",
+                "specialty food"
+            ],
+            "style": [
+                "clean",
+                "modern",
+                "fresh",
+                "organized"
+            ],
+            "colors": [],
+            "description": "Online grocery store offering fresh produce, meat, dairy, beverages, and specialty organic and gluten-free food items.",
+            "_enriched": true
+        },
+        "shop42": {
+            "name": "Shop 42",
+            "keywords": [
+                "automotive",
+                "car parts",
+                "auto accessories",
+                "brake pads",
+                "spark plugs",
+                "car battery",
+                "performance parts",
+                "car wheels",
+                "motor oil",
+                "vehicle maintenance",
+                "aftermarket parts"
+            ],
+            "style": [
+                "bold",
+                "modern",
+                "clean",
+                "energetic"
+            ],
+            "colors": [],
+            "description": "Automotive parts and accessories store specializing in performance upgrades, brake kits, wheels, and vehicle maintenance products.",
+            "_enriched": true
+        },
+        "shop1-dark": {
+            "name": "Shop 1 Dark",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "electronics",
+                "accessories",
+                "dark theme",
+                "t-shirts",
+                "headphones",
+                "bags",
+                "shoes",
+                "cameras",
+                "multi-category",
+                "dark"
+            ],
+            "style": [
+                "dark",
+                "modern",
+                "minimal",
+                "sleek"
+            ],
+            "colors": [],
+            "description": "Dark-themed multi-category store selling fashion, electronics, and accessories with a striking dark mode layout.",
+            "_enriched": true
+        },
+        "shop2-dark": {
+            "name": "Shop 2 Dark",
+            "keywords": [
+                "fashion",
+                "electronics",
+                "accessories",
+                "dark theme",
+                "headphones",
+                "smartphones",
+                "watches",
+                "bags",
+                "apparel",
+                "dark",
+                "multi-category",
+                "lifestyle"
+            ],
+            "style": [
+                "dark",
+                "modern",
+                "bold",
+                "sleek"
+            ],
+            "colors": [],
+            "description": "Dark-themed general merchandise shop featuring electronics, fashion, and accessories with a deep black minimalist aesthetic.",
+            "_enriched": true
+        },
+        "shop4-dark": {
+            "name": "Shop 4 Dark",
+            "keywords": [
+                "fashion",
+                "accessories",
+                "lifestyle",
+                "dark theme",
+                "watches",
+                "handbags",
+                "speakers",
+                "bluetooth",
+                "clothing",
+                "shoes",
+                "dark",
+                "contemporary"
+            ],
+            "style": [
+                "dark",
+                "sophisticated",
+                "modern",
+                "elegant"
+            ],
+            "colors": [],
+            "description": "Dark-themed fashion and lifestyle store showcasing watches, handbags, speakers, and apparel with a navy-black premium look.",
+            "_enriched": true
+        },
+        "blog1": {
+            "name": "Blog 1",
+            "keywords": [
+                "blog",
+                "lifestyle",
+                "travel",
+                "gadgets",
+                "technology",
+                "news",
+                "photography",
+                "motorcycle",
+                "beach",
+                "tourism",
+                "wordpress blog",
+                "content"
+            ],
+            "style": [
+                "modern",
+                "minimal",
+                "clean",
+                "editorial"
+            ],
+            "colors": [],
+            "description": "Lifestyle blog demo covering travel, gadgets, photography, and news with a clean editorial grid layout.",
+            "_enriched": true
+        }
+    }
+}

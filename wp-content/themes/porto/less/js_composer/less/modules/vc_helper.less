@@ -1,0 +1,37 @@
+@vc-helper-size: 60px;
+
+.vc_helper {
+  width: @vc-helper-size !important;
+  height: @vc-helper-size !important;
+  justify-content: center;
+  align-items: center;
+  .box-sizing(border-box);
+  z-index: 11000; // override smart line
+  position: absolute;
+  background-color: @white;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  .border-top-radius(3px);
+  .border-bottom-radius(3px);
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-size: 9px;
+  @import '../lib/elements_icons.less';
+  .vc_element-icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &-tab {
+    width: auto !important;
+  }
+}
+
+.vc-ui-drag-helper-wrapper {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 1009;
+}

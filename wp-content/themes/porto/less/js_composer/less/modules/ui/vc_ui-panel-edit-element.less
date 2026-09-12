@@ -1,0 +1,51 @@
+.vc_ui-panel {
+  .vc_panel-tabs {
+    > .vc_edit-form-tab {
+      &.vc_row {
+        display: none;
+        flex-wrap: wrap;
+        &::before,
+        &::after {
+          width: 0;
+        }
+      }
+      &.vc_active {
+        display: flex;
+      }
+    }
+
+    .wpb_form-link-container {
+      margin: 5px 0 0;
+    }
+
+    .wpb_form-link-container .wpb_form-link {
+      display: inline-block;
+      font-size: 0; // reset font-size to remove space between inline-block elements (prefix and slug in post url)
+    }
+
+    .wpb_form-link,
+    .wpb_form-description {
+      font-size: 14px;
+      font-weight: @wpb_font-weight;
+    }
+
+    a.wpb_form-link {
+      display: inline-flex;
+      color: #0772CE;
+      text-decoration: none;
+      &:hover {
+        color: #00447F;
+      }
+    }
+
+    .wpb-post-url--prefix,
+    .wpb-post-url--slug {
+      font-size: 14px;
+      word-break: break-all;
+    }
+
+    .wpb_form-description {
+      color: #C9C9C9;
+    }
+  }
+}

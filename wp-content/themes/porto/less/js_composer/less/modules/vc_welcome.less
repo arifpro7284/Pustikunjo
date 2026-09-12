@@ -1,0 +1,235 @@
+@import "ui/vc_ui-button.less";
+@import "ui/vc_ui-helper.less";
+@import "ui/vc_ui-icon-pixel.less";
+
+@vc-welcome-border: rgba(44, 51, 57, 0.2);
+@vc-welcome-margin: 14px;
+@vc-welcome-base-font-size: 14px;
+@vc-welcome-gap: 20px;
+@vc-welcome-header-font-size: 26px;
+@vc-welcome-header-line-height: 36px;
+@vc-welcome-header-font-color: #34444B;
+
+
+.vc_welcome {
+  margin: @vc-welcome-margin;
+  font-size: @vc-welcome-base-font-size;
+  text-align: center;
+  padding: @vc-welcome-gap;
+
+  // buttons behavior
+  .vc_ui-btn-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: @vc-welcome-gap;
+  }
+  .vc_ui-button {
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none !important;
+    align-items: center;
+
+    .vc-composer-icon {
+      font-size: 14px;
+      margin: 0 9px 0 0;
+    }
+
+    .vc-c-template-layout {
+      font-size: 12px;
+      margin: 0 10px 0 0;
+    }
+    .vc-composer-icon.vc-c-icon-text-block {
+      font-size: 16px;
+    }
+  }
+  // icon behaviour
+  .vc_ui-icon-pixel {
+    padding-right: .5em;
+  }
+}
+
+.vc_welcome-wrapper {
+  width: 600px;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #E6E6E7;
+  border-radius: 3px;
+  padding: 34px 20px;
+  box-sizing: border-box;
+}
+
+.vc_post-custom-layout-selected .vc_welcome-wrapper,
+.vc_not-empty .vc_welcome-wrapper {
+  all: unset; // should be a regular div without any styles if it has content, so unset all and then set display block
+  display: block;
+  position: static;
+}
+
+.vc_welcome-brand {
+  margin-top: @vc-welcome-gap;
+  margin-bottom: (@vc-welcome-gap * 1.5);
+  text-align: center;
+  img {
+    box-shadow: none;
+    display: inline-block;
+  }
+}
+
+.vc_welcome-header {
+  font-family: @wpb_font-family-secondary;
+  font-weight: 500;
+  font-size: @vc-welcome-header-font-size;
+  line-height: @vc-welcome-header-line-height;
+  color: @vc-welcome-header-font-color;
+  margin: 0;
+}
+
+.vc_post-custom-layout-selected.vc_welcome .vc_ui-btn-group {
+  display: flex;
+}
+
+.vc_add-element-not-empty-button {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  color: #FFFFFF !important; // override theme color
+  width: 39px;
+  height: 38px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: #C9C9C9;
+  cursor: pointer;
+  border: none !important;
+  .border-radius(5px);
+  .transition(background-color 0.5s);
+  &:hover {
+    background-color: #E4E4E4;
+    color: #FFFFFF;
+  }
+
+  .vc-composer-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    .translate(-50%, -50%);
+  }
+
+  .vc_welcome-visible-ne {
+    height: 32px;
+  }
+  // Show old icon in backend, circle icon in frontend.
+  .vc_welcome-icon-fe {
+    display: none;
+  }
+  .compose-mode & {
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    .border-radius(3px);
+    .vc_welcome-icon-be {
+      display: none;
+    }
+    .vc_welcome-icon-fe {
+      display: inline-block;
+    }
+  }
+}
+
+// not empty state
+.vc_welcome {
+  .compose-mode & .vc_welcome-visible-ne {
+    height: 32px;
+  }
+  &.vc_not-empty {
+    position: relative;
+    border: 1px dashed @vc-welcome-border;
+    .vc_welcome-visible-e {
+      display: none;
+    }
+    &.active .vc_add-element-not-empty-button {
+      background-color: #E4E4E4;
+    }
+  }
+  &:not(.vc_not-empty) {
+    .vc_welcome-visible-ne {
+      display: none;
+    }
+  }
+}
+// Editors behaviour
+//
+// Frontend editor behaviour
+// Make welcome screen full viewport size for preloader state.
+.vc_inline-shortcode-edit-form {
+  .vc_welcome {
+    position: fixed;
+    top: @vc_navbar_height;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: @white;
+    margin: 0;
+    padding: 0;
+  }
+}
+.vc_editor.compose-mode {
+  .vc_welcome {
+    margin: 0;
+
+    &:not(.vc_not-empty) {
+      padding: 0;
+    }
+  }
+}
+
+// Backend editor behaviour
+.metabox-composer-content {
+  .vc_welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Blank state
+.wpb-content--blank {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:has(.vc_not-empty) {
+    all: unset; // should be a regular div without any styles if it has content, so unset all and then set display block
+    display: block;
+    position: static;
+  }
+}
+
+// media behaviour
+@media screen and (max-width: @screen-sm) {
+  .vc_welcome {
+    .vc_ui-button {
+      display: flex;
+    }
+  }
+
+  .compose-mode .wpb-content--blank .vc_welcome-wrapper {
+    width: auto;
+  }
+}
